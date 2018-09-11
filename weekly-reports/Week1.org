@@ -1,0 +1,42 @@
+* Tyr: Report #1
+** Previous Week(0):
+*** Kick Off!
+*** Overall Project Name(Tentative): Tyr
+**** Named after the Nordic god Tyr, who is Judgment and Wisdom.
+**** Also because we make people cry when they fail their code tests.
+*** Planning Microservices
+**** So far three in mind.
+***** Frontend
+***** Backend
+***** K8 Management System
+**** Maybe more to eventually come.
+*** Rough designs sketched out for MVP.
+**** C++ Grading Environment
+**** Front/Back ends
+***** Upload code files.
+***** Upload test script.
+***** Limit number of submissions.
+***** Display results.
+*** Technology Stack
+**** Nodejs with React/Redux.
+**** Golang with Gin.
+**** K8.
+**** Mongo DB.
+*** Database schema not designed yet, not that far in design.
+*** Testing grounds for K8 has been set up.
+** Current Week(1):
+*** Architect design diagrams.
+*** Official documents outlining MVP and Microservices.
+*** Sprint board set up with delegated (This means things to be done/start working on next week).
+**** Time to dedicate for everyone to learn all tech being used.
+***** Everyone knows parts just not all of it.
+**** Time dedicated to writing documentation and creating diagrams.
+**** Time blocked out to write some simple boilerplate code that we can build off of in the future.
+**** Time setting up code versioning(github) and communication tools.
+**** Start working n parts of the microservices we can start now.
+***** K8.
+***** Go Server.
+***** Go Handler for K8.
+*** Discuss downfalls/solutions of certain areas.
+**** Whether or not start immediately with a rest api or just send stdout for now.
+*** Overall Status: On-Track
