@@ -1,0 +1,25 @@
+* Tyr
+** About
+Tyr is the means to being able to easily manage and create consistent testing environments for code.
+We will solve this problem using Kubernetes and a Microservices set up using Golang.
+This will be done through a web app interface, which will be easy to maintain and add new enviornments for testing code.
+As this project develops we will constantly update the documentation for the users/developers convienvce. 
+** Why
+Companies and Colleges often have the problem of testing code on a similar enviornment. So as to simplify this problem why not have an easy interface 
+where users can upload their code and see if it runs the expected way. Done this way it can give everyone the same environment everytime, and thus solve 
+the problem of different users having different environments, operating systems and etc.
+** Where
+Some questions might be how to use a tool like this. Well since we are making a scalable webapp you can easily spin up internal versions of this application 
+on a per need basis.
+** Tech Stack
+*** MongoDB
+*** NodeJS for React/Redux
+*** Golang
+*** Kubernetes
+** Microservices
+So far... 
+*** Front End
+*** Back End
+*** Interface to Kubernetes
+*** Kubernetes Deployment Set Up
+** License
