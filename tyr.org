@@ -4,6 +4,15 @@ Tyr is the means to being able to easily manage and create consistent testing en
 We will solve this problem using Kubernetes and a Microservices set up using Golang.
 This will be done through a web app interface, which will be easy to maintain and add new enviornments for testing code.
 As this project develops we will constantly update the documentation for the users/developers convienvce. 
+This project is a Senior Design project being done at Stevens Institute of Technology.
+*** Project Lead
+**** Doctor Brian Borowski
+*** Team Members
+**** Andrew Chen
+**** Taylor He
+**** Rob Herley
+**** Jonathan Pavlik
+**** Alex Supkay
 ** Why
 Companies and Colleges often have the problem of testing code on a similar enviornment. So as to simplify this problem why not have an easy interface 
 where users can upload their code and see if it runs the expected way. Done this way it can give everyone the same environment everytime, and thus solve 

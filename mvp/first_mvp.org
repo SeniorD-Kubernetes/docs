@@ -1,0 +1,24 @@
+* First MVP(Minimal Viable Product)
+** C++ Grading Environment
+** Front End/Backend
+*** A simple upload for zipped code files.
+*** A simple upload for a  bash test script to test the code.
+*** A way to limit the number of submissions.
+*** A display of the results from running the testcript.
+* Break Down
+** Grading Environment
+*** Probably the most difficult part of this.
+*** K8 needs to be able to automatically create jobs for this enviornment.
+**** That way when different people upload their code they each get their own environment.
+*** We need to be able to reproducibly build this environmnet. Preferably automatically.
+**** Meaning we need to write a K8 interface service.
+**** This will be done in go so as to easily intergrate with our backend.
+*** Needs to have all tools available to run test script and code.
+** UI
+*** The easiest part of this.
+*** Just a simple form page that handles accepting of appropiate file types and sends them to our backend service.
+** Backend
+*** We need a few things here.
+*** Something to tell K8 when to run a job.
+*** Checking correct file types.
+*** Handles submissions and limits them.
