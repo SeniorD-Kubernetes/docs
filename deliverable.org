@@ -1,0 +1,62 @@
+* Intro
+Tyr is a web app that targets developers and schools. This service will be able to easily scale, 
+as well as create consistent testing environmnets for testing code. A user will be a manager 
+and can set up a script to test the code and the language of the code. Then the rest of the 
+users will be able to upload their submission and see the results of testing thier code.
+* Technical Plan
+This section's purpose is to list and describe the technology and software used for team 
+communication and development.
+| *Category*             | *Type*            | *Software*                   |
+|                        | _Communication_   |                              |
+| Email                  |                   | Stevens email                |
+| Instant Messaging      |                   | Slack                        |
+|                        | _Collaboration_   |                              |
+| Document Collab + Code |                   | Github                       |
+| Task Delegation        |                   | Trello(Spring board)         |
+|                        | _Web Development_ |                              |
+| Supported Browsers     |                   | Chrome, Firefox              |
+| Front End              |                   | NodesJS + React/Redux + SASS |
+| Back End               |                   | Golang                       |
+| Database               |                   | MongoDB                      |
+| Scaling/Management     |                   | Kubernetes                   |
+* Team Members
+Below is the list of Team Members and roles. The roles were more needed for the Senior D requirement. In actuallity all 
+team members work collaboritvely on all parts.
+** Andrew Chen - Database Manager
+** Taylor He - Backend Developer
+** Rob Herley - Frontend Developer
+** Jonathan Pavlik - Project Manager
+** Alex Supkay - GCP/Kubernetes Manager
+* Delegation of Tasks/Completion Schedule
+We are using an agile development system as it allows us to work more concurrently on project flow.
+To do this we use a Trello Board with sprint planning. Which you can find https://trello.com/b/U5NIyhQs/senior-design.
+* Componenets
+This section will be expanded as we work through several stages of MVPs.
+** Backend: APIs for front end to interact with.
+*** Determine if submission of code is of proper type.
+**** Can specify type of submission such as zip, tar.gz, etc.
+**** We need to correctly identity that the submission is of the correct type.
+*** Limit Number of Submissions
+**** If specified we need to limit the number of submissions to test allowed.
+*** Need service to relay output.
+**** An Api that formats stdout in a specific format to send to front end.
+*** Make a call to Kubernetes to spin up job upon submission.
+**** Need a service that interacts with Kubernetes.
+**** Needs to be able to know which job it should be spinning up.
+*** Logging
+**** For Admin purposes we need proper log outputs that are easy to read.
+**** Also needs to integrate into any service.
+** Frontend: The interactive elements of our application
+*** A simple form page Mock up.
+**** Must have submission upload.
+**** Test script Upload.
+**** Gives message for incorrect submission upload.
+**** Gives message for max number of attempts reached.
+**** Displays number of attempts left.
+** Kubernetes: The scaling and environment builder
+*** Need a C++ Environment that can run shell test scripts(First MVP).
+**** Requires setting up Kubernetes infrastructure.
+***** There's a lot of work to this even though it sounds simple.
+**** The ability to spin up jobs per user.
+* Dependency Diagram
+

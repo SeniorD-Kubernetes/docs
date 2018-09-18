@@ -1,0 +1,18 @@
+* Tyr: Report #1
+** Previous Week(1):
+*** Architect design diagrams.
+*** Official documents outlining MVP and Microservices.
+*** Sprint board set up with delegated (This means things to be done/start working on next week).
+**** Time to dedicate for everyone to learn all tech being used.
+***** Everyone knows parts just not all of it.
+**** Time dedicated to writing documentation and creating diagrams.
+**** Time blocked out to write some simple boilerplate code that we can build off of in the future.
+**** Time setting up code versioning(github) and communication tools.
+**** Start working on parts of the microservices we can start now.
+***** K8.
+***** Go Server.
+***** Go Handler for K8.
+*** Discuss downfalls/solutions of certain areas.
+**** Whether or not start immediately with a rest api or just send stdout for now.
+** Current Week(2):
+

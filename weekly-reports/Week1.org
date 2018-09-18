@@ -33,10 +33,11 @@
 **** Time dedicated to writing documentation and creating diagrams.
 **** Time blocked out to write some simple boilerplate code that we can build off of in the future.
 **** Time setting up code versioning(github) and communication tools.
-**** Start working n parts of the microservices we can start now.
+**** Start working on parts of the microservices we can start now.
 ***** K8.
 ***** Go Server.
 ***** Go Handler for K8.
 *** Discuss downfalls/solutions of certain areas.
 **** Whether or not start immediately with a rest api or just send stdout for now.
 *** Overall Status: On-Track
+>
