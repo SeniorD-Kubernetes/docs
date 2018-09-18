@@ -22,10 +22,10 @@ communication and development.
 * Team Members
 Below is the list of Team Members and roles. The roles were more needed for the Senior D requirement. In actuality all 
 team members work collaboritvely on all parts.
-** Andrew Chen - Database Manager
-** Taylor He - Backend Developer
+** Andrew Chen - UX Designer/Frontend Developer
+** Taylor He - Backend Developer/Software Engineer
 ** Rob Herley - Frontend Developer/Kubernetes/DevOps
-** Jonathan Pavlik - Project Manager
+** Jonathan Pavlik - Project Manager/Backend Developer/Software Engineer
 ** Alex Supkay - GCP/Kubernetes Manager
 * Delegation of Tasks/Completion Schedule
 We are using an agile development system as it allows us to work more concurrently on project flow.
