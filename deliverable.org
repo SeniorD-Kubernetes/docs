@@ -1,8 +1,8 @@
 * Intro
-Tyr is a web app that targets developers and schools. This service will be able to easily scale, 
-as well as create consistent testing environmnets for testing code. A user will be a manager 
-and can set up a script to test the code and the language of the code. Then the rest of the 
-users will be able to upload their submission and see the results of testing thier code.
+Tyr is a collection of microservices with a web app front-end that targets developers and schools. These 
+services will be able to easily scale, as well as create identical and ephemeral testing environments for testing code. 
+A user will have a managerial role and can set up a script to test the syntax and runtime of user-submitted code. 
+Then other users (with student roles) will be able to upload their submission and run predefined tests on their code.
 * Technical Plan
 This section's purpose is to list and describe the technology and software used for team 
 communication and development.
@@ -15,16 +15,16 @@ communication and development.
 | Task Delegation        |                   | Trello(Spring board)         |
 |                        | _Web Development_ |                              |
 | Supported Browsers     |                   | Chrome, Firefox              |
-| Front End              |                   | NodesJS + React/Redux + SASS |
+| Front End              |                   | NodeJS + React/Redux + SASS  |
 | Back End               |                   | Golang                       |
 | Database               |                   | MongoDB                      |
 | Scaling/Management     |                   | Kubernetes                   |
 * Team Members
-Below is the list of Team Members and roles. The roles were more needed for the Senior D requirement. In actuallity all 
+Below is the list of Team Members and roles. The roles were more needed for the Senior D requirement. In actuality all 
 team members work collaboritvely on all parts.
 ** Andrew Chen - Database Manager
 ** Taylor He - Backend Developer
-** Rob Herley - Frontend Developer
+** Rob Herley - Frontend Developer/Kubernetes/DevOps
 ** Jonathan Pavlik - Project Manager
 ** Alex Supkay - GCP/Kubernetes Manager
 * Delegation of Tasks/Completion Schedule
