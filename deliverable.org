@@ -5,43 +5,44 @@
 #+MACRO: NEWLINE @@latenx:\\@@
 
 * Project Name Background
-Tyr is the name of a Nordic god who represents justice and wisdom. The
-reason why we chose this name was because it represents wisdom and
-this project represents automatically creating environments to
-test. Justice we like because it gives justice, at least in a code
-way, to get rid of bugs. Also Tyr is a pun on tear like a teardrop, as
-they will be sad when their code fails the test case.
+Tyr (pronounced /teer/) is the Nordic god who presides over matters of law, justice
+and wisdom. This name is befitting to our project as we provide
+a strict grading service that will uphold the rules set by 
+educators in their test scripts. In addition, 
+Tyr can be viewed as a pun of the word tear (like teardrop), as the students 
+will be sad when their code fails the test cases.
 * Introduction
 ** About
 Tyr is a web application that helps educators assess student
 assignments on a scalable, fault tolerant, and uniform testing
 environment. The professor or educator will write a script to gauge
 the correctness of user submitted code.  The students will upload
-their submission and run the professor defined tests on their
-code. Tyr differentiates itself from other grading services with its
-complex management of single-use containers. The utilization of
+their submissions and run the professor defined tests on their
+code, in a unified environment via a web interface. Tyr differentiates 
+itself from other grading services with its complex management of 
+ephermal single-use containers. The utilization of
 containers provides a few key features:
 
 1. Fault tolerance: Improper code will not take down the whole server
 2. Scalability: Tyr is able to handle many clients
-3. Uniformity: Every container will be the same
+3. Uniformity: Every container environment will be the same
 
 In the back end, Tyr manages a collection of microservices to create
 identical and ephemeral testing environments via a Kubernetes cluster
 hosted on Google Cloud.  For the front end, Tyr provides a web
-interface (tyr.tools) to upload code to be processed.
+interface (https://tyr.tools) to upload code to be processed.
 ** Similar tools
 + Mimir - a scaling platform for testing class room code.
   + What makes ours different is we our aiming our tool for more than
   just classrooms.
-  + We are aiming to make ours hookable to other interfaces such as
-  canvas.
-  + They have set languages. We are making it so we have a few set
-  languages but a user can easily add a new language from a web
+  + We are aiming to make Tyr have plugins to other CMS APIs such as
+  the Canvas CMS.
+  + They have set languages. We are making it so we have predefined
+  languages but a user can easily add a new language from the web
   interface easily.
 + Codio - An online IDE with a terminal to interface with code.
   + This requires users to use a terminal. While ours is a web
-    interface.
+    interface with a easy-to-use GUI.
   + Ideally we will be able to add a terminal interface, but only when
     wanted.
 + repl.it - A online IDE that supports many languages.
@@ -70,7 +71,7 @@ software used for team communication and development.
 ** Client
 The client is a professor from Stevens Institute of Technology.
 + Brian Borowski
-  + *Email*: bborwsk@stevens.edu
+  + *Email*: bborowsk@stevens.edu
 ** Team Members
 Below is the list of Team Members and roles. The roles were more
 needed for the Senior D requirement. In actuality all team members
@@ -142,7 +143,7 @@ MVPs.
     \FloatBarrier
     
 ** Kubernetes: The scaling and environment builder
-*** Need a C++ Environment that can run shell test scripts(First MVP).
+*** Need a C++ Environment that can run shell test scripts (First MVP).
 **** Requires setting up Kubernetes infrastructure.
 ***** There's a lot of work to this even though it sounds simple.
 **** The ability to spin up jobs per user.
