@@ -170,6 +170,6 @@ Here is our timeline of what we expect to have done.
 Below is our dependency diagram.
 #+CAPTION: Dependecy Diagram
 #+NAME: fig:Dependency-Diagram
-[[./dep_diagram.jpg]]
+[[./dep_diagram.png]]
 
 \FloatBarrier
