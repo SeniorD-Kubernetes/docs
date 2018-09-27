@@ -31,4 +31,4 @@
 * Overall Status: On-Track
 Looks like the team is making good progress. First week of setting up official 
 documentation for the project. Now we discussed a simple MVP and they will start 
-working towards that.m
+working towards that.

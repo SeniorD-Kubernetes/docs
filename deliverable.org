@@ -1,11 +1,58 @@
-* Intro
-Tyr is a collection of microservices with a web app front-end that targets developers and schools. These 
-services will be able to easily scale, as well as create identical and ephemeral testing environments for testing code. 
-A user will have a managerial role and can set up a script to test the syntax and runtime of user-submitted code. 
-Then other users (with student roles) will be able to upload their submission and run predefined tests on their code.
+#+TITLE: Tyr
+#+OPTIONS: author:nil
+#+latex_header: \hypersetup{colorlinks=true}
+#+LATEX_HEADER: \usepackage{placeins}
+#+MACRO: NEWLINE @@latenx:\\@@
+
+* Project Name Background
+Tyr is the name of a Nordic god who represents justice and wisdom. The
+reason why we chose this name was because it represents wisdom and
+this project represents automatically creating environments to
+test. Justice we like because it gives justice, at least in a code
+way, to get rid of bugs. Also Tyr is a pun on tear like a teardrop, as
+they will be sad when their code fails the test case.
+* Introduction
+** About
+Tyr is a web application that helps educators assess student
+assignments on a scalable, fault tolerant, and uniform testing
+environment. The professor or educator will write a script to gauge
+the correctness of user submitted code.  The students will upload
+their submission and run the professor defined tests on their
+code. Tyr differentiates itself from other grading services with its
+complex management of single-use containers. The utilization of
+containers provides a few key features:
+
+1. Fault tolerance: Improper code will not take down the whole server
+2. Scalability: Tyr is able to handle many clients
+3. Uniformity: Every container will be the same
+
+In the back end, Tyr manages a collection of microservices to create
+identical and ephemeral testing environments via a Kubernetes cluster
+hosted on Google Cloud.  For the front end, Tyr provides a web
+interface (tyr.tools) to upload code to be processed.
+** Similar tools
++ Mimir - a scaling platform for testing class room code.
+  + What makes ours different is we our aiming our tool for more than
+  just classrooms.
+  + We are aiming to make ours hookable to other interfaces such as
+  canvas.
+  + They have set languages. We are making it so we have a few set
+  languages but a user can easily add a new language from a web
+  interface easily.
++ Codio - An online IDE with a terminal to interface with code.
+  + This requires users to use a terminal. While ours is a web
+    interface.
+  + Ideally we will be able to add a terminal interface, but only when
+    wanted.
++ repl.it - A online IDE that supports many languages.
+  + They are an IDE which could be used to run code consistently, but
+    we want a platform to test code, not develop.
+  + Users would be able to see test cases or a tester would have to
+    upload everyone's files themself after using another service to
+    have them handed in.
 * Technical Plan
-This section's purpose is to list and describe the technology and software used for team 
-communication and development.
+This section's purpose is to list and describe the technology and
+software used for team communication and development.
 | *Category*             | *Type*            | *Software*                   |
 |                        | _Communication_   |                              |
 | Email                  |                   | Stevens email                |
@@ -20,18 +67,32 @@ communication and development.
 | Database               |                   | MongoDB                      |
 | Scaling/Management     |                   | Kubernetes                   |
 * Team Members
-Below is the list of Team Members and roles. The roles were more needed for the Senior D requirement. In actuality all 
-team members work collaboritvely on all parts.
-** Andrew Chen - UX Designer/Frontend Developer
-** Taylor He - Backend Developer/Software Engineer
-** Rob Herley - Frontend Developer/Kubernetes/DevOps
-** Jonathan Pavlik - Project Manager/Backend Developer/Software Engineer
-** Alex Supkay - GCP/Kubernetes Manager
+** Client
+The client is a professor from Stevens Institute of Technology.
++ Brian Borowski
+  + *Email*: bborwsk@stevens.edu
+** Team Members
+Below is the list of Team Members and roles. The roles were more
+needed for the Senior D requirement. In actuality all team members
+work collaboratively on all parts.
++ Andrew Chen - UX Designer/Frontend Developer
+  + *Email*: achen8@stevens.edu
++ Taylor He - Backend Developer/Software Engineer
+  + *Email*: the2@stevens.edu
++ Rob Herley - Frontend Developer/Kubernetes/DevOps
+  + *Email*: rherley@stevens.edu
++ Jonathan Pavlik - Project Manager/Backend Developer/Software Engineer
+  + *Email*: jpavlik1@stevens.edu
++ Alex Supkay - GCP/Kubernetes Manager
+  + *Email*: asupkay@stevens.edu
 * Delegation of Tasks/Completion Schedule
-We are using an agile development system as it allows us to work more concurrently on project flow.
-To do this we use a Trello Board with sprint planning. Which you can find https://trello.com/b/U5NIyhQs/senior-design.
-* Componenets
-This section will be expanded as we work through several stages of MVPs.
+ We are using an agile development system as it allows us to work more
+concurrently on project flow.  To do this we use a Trello Board with
+sprint planning. Which you can find
+https://trello.com/b/U5NIyhQs/senior-design.
+* Components
+This section will be expanded as we work through several stages of
+MVPs.
 ** Backend: APIs for front end to interact with.
 *** Determine if submission of code is of proper type.
 **** Can specify type of submission such as zip, tar.gz, etc.
@@ -53,10 +114,61 @@ This section will be expanded as we work through several stages of MVPs.
 **** Gives message for incorrect submission upload.
 **** Gives message for max number of attempts reached.
 **** Displays number of attempts left.
+*** A list of image of the current mock up is located below.
+    #+CAPTION: Homepage
+    #+NAME:   fig:MVP1-Homepage
+    [[./mvp/first_mvp_screens/homepage.png]]
+
+    #+CAPTION: Student Assignments Page
+    #+NAME:   fig:MVP1-Student-Assignments
+    [[./mvp/first_mvp_screens/student_assignments.png]]
+
+    #+CAPTION: File Upload Page
+    #+NAME:   fig:MVP1-File-Upload
+    [[./mvp/first_mvp_screens/file_upload.png]]
+
+    #+CAPTION: Rubric Upload Page
+    #+NAME:   fig:MVP1-Rubric-Upload-Page
+    [[./mvp/first_mvp_screens/rubric_upload.png]]
+
+    #+CAPTION: Professor Assignments Page
+    #+NAME:   fig:MVP-1-Prof-Assignments-Page
+    [[./mvp/first_mvp_screens/prof_assignments.png]]
+
+    #+CAPTION: Profesor Grade Page
+    #+NAME:   fig:MVP-1-Prof-Grade-Page
+    [[./mvp/first_mvp_screens/prof_grader.png]]
+
+    \FloatBarrier
+    
 ** Kubernetes: The scaling and environment builder
 *** Need a C++ Environment that can run shell test scripts(First MVP).
 **** Requires setting up Kubernetes infrastructure.
 ***** There's a lot of work to this even though it sounds simple.
 **** The ability to spin up jobs per user.
-* Dependency Diagram
+* Project Timeline
+Here is our timeline of what we expect to have done.
++ First MVP
+  + To have a small demo web app that only accepts very specific code
+    types and test scripts.
++ Second MVP
+  + Having a more extended web app where we can have users create
+    assignments and pick a programming language.
++ Final Product
+  + Having hopefully our final product finished. Where adding a
+    programming language can easily be added, we accept many file
+    types and we are fully scalable. Hopefully we can give users a
+    terminal interface through our web page as well.
+#+CAPTION: Timeline
+#+NAME: fig:Timeline
+[[./timeline.jpg]]
 
+\FloatBarrier
+
+* Dependency Diagram
+Below is our dependency diagram.
+#+CAPTION: Dependecy Diagram
+#+NAME: fig:Dependency-Diagram
+[[./dep_diagram.jpg]]
+
+\FloatBarrier
