@@ -1,0 +1,49 @@
+#+TITLE: Weekly Report 3
+#+AUTHOR: Brian Borowski
+
+* Tyr: Report #1
+** Previous Week(2):
+*** Front End Mock Up for current MVP.
+*** Add tools onto back end services.
+**** Logging
+**** JWT Authentication
+***** Needed for task below.
+**** Easy way to add api routes for differing services.
+*** Kubernetes continue setting up.
+*** Back end Services
+**** Start file type identification and handling.
+***** Starting with zip since that's part of identifications
+**** Add way to submit test script.
+**** Add way to submit submission.
+**** Start looking into api for a good way to return stdout.
+** Current Week(3):
+*** Front End
+**** Mock Ups have been Designed.
+**** This week is starting Modular components of parts of it.
+*** Back End
+**** Logging, bare min JWT(expected), easy ways to add APIs implemented.
+***** Tests need to be added for those tools.
+***** Proper logging in microservice took longer than expected to implement.
+**** File type checking routes started implementation.
+***** Tests need to be added for this.
+**** Implement file uploader.
+***** Need to figure out how this is going to work with kubernetes.
+***** This might not be able to be done till we write a service to interact with kubernetes.
+***** TBD how to handle uploaded file.
+*** Op Sec
+**** GitHub permissions now in place. Can no longer push to master, and code review required.
+**** Next we need to set up pipelines to enforce passing tests when code changes are made.
+*** Kubernetes
+**** Deploy MongoDB Sateful
+**** Set up for backend/frontend deployments
+
+* Overall Status: On-Track
+Team has started microservice architecture. Starting to implement a
+microservice and having set up all the tools to start writing
+one. They will continue more work on this next week. May need to start
+another one or two soon. Front end mock ups have been created and look
+good for now. Future changes may be needed depending on software
+implementation issues. They will start making parts of that
+next. Other than that they will start setting up Kubernetes to run the
+servers, front end, and database.
+`

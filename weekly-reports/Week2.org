@@ -15,4 +15,20 @@
 *** Discuss downfalls/solutions of certain areas.
 **** Whether or not start immediately with a rest api or just send stdout for now.
 ** Current Week(2):
-
+*** Front End Mock Up for current MVP.
+*** Add tools onto back end services.
+**** Logging
+**** JWT Authentication
+***** Needed for task below.
+**** Easy way to add api routes for differing services.
+*** Kubernetes continue setting up.
+*** Back end Services
+**** Start file type identification and handling.
+***** Starting with zip since that's part of identifications
+**** Add way to submit test script.
+**** Add way to submit submission.
+**** Start looking into api for a good way to return stdout.
+* Overall Status: On-Track
+Looks like the team is making good progress. First week of setting up official 
+documentation for the project. Now we discussed a simple MVP and they will start 
+working towards that.
