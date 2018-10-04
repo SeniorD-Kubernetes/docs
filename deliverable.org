@@ -128,28 +128,48 @@ MVPs.
 **** Displays number of attempts left.
 *** A list of image of the current mock up is located below.
     #+CAPTION: Homepage
-    #+NAME:   fig:MVP1-Homepage
-    [[./mvp/first_mvp_screens/homepage.png]]
+    #+NAME:   fig:MVP1-Homepage-Page
+    [[./mockups/first_iter/homepage.png]]
+    
+    #+CAPTION: Dashboard
+    #+NAME:   fig:MVP1-Dashboard-Page
+    [[./mockups/first_iter/dashboard.png]]
 
-    #+CAPTION: Student Assignments Page
-    #+NAME:   fig:MVP1-Student-Assignments
-    [[./mvp/first_mvp_screens/student_assignments.png]]
+    #+CAPTION: Login
+    #+NAME:   fig:MVP1-Login-Page
+    [[./mockups/first_iter/login.png]]
 
-    #+CAPTION: File Upload Page
-    #+NAME:   fig:MVP1-File-Upload
-    [[./mvp/first_mvp_screens/file_upload.png]]
+    #+CAPTION: Signup
+    #+NAME:   fig:MVP1-Signup-Page
+    [[./mockups/first_iter/signup.png]]
 
-    #+CAPTION: Rubric Upload Page
-    #+NAME:   fig:MVP1-Rubric-Upload-Page
-    [[./mvp/first_mvp_screens/rubric_upload.png]]
+    #+CAPTION: Student Class Page
+    #+NAME:   fig:MVP1-Student-Class-Page
+    [[./mockups/first_iter/student_class.png]]
 
-    #+CAPTION: Professor Assignments Page
-    #+NAME:   fig:MVP-1-Prof-Assignments-Page
-    [[./mvp/first_mvp_screens/prof_assignments.png]]
+    #+CAPTION: Student Class Assignment Page
+    #+NAME:   fig:MVP1-Student-Class-Assignment-Page
+    [[./mockups/first_iter/student_class_assignment.png]]
 
-    #+CAPTION: Profesor Grade Page
-    #+NAME:   fig:MVP-1-Prof-Grade-Page
-    [[./mvp/first_mvp_screens/prof_grader.png]]
+    #+CAPTION: Student Class Assignment Submission Page
+    #+NAME:   fig:MVP1-Student-Class-Assignment-Submission-Page
+    [[./mockups/first_iter/student_class_assignment_submit.png]]
+ 
+    #+CAPTION: Professor Class Page
+    #+NAME:   fig:MVP1-Prof-Class-Page
+    [[./mockups/first_iter/professor_class.png]]
+
+    #+CAPTION: Professor Class Assignment Page
+    #+NAME:   fig:MVP-1-Prof-Class-Assignment-Page
+    [[./mockups/first_iter/professor_class_assignment.png]]
+
+    #+CAPTION: Professor Class Assignment Submissions Page
+    #+NAME:   fig:MVP-1-Prof-Class-Assignment-Submissions-Page
+    [[./mockups/first_iter/professor_class_assignment_submissions.png]]
+
+    #+CAPTION: Professor Class Create Assignment Page
+    #+NAME:   fig:MVP-1-Prof-Class-Create-Assignment-Page
+    [[./mockups/first_iter/professor_class_createAssignment.png]]
 
     \FloatBarrier
     
