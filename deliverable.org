@@ -89,8 +89,19 @@ work collaboratively on all parts.
 * Delegation of Tasks/Completion Schedule
  We are using an agile development system as it allows us to work more
 concurrently on project flow.  To do this we use a Trello Board with
-sprint planning. Which you can find
-https://trello.com/b/U5NIyhQs/senior-design.
+Esprint planning. Which you can find https://trello.com/b/U5NIyhQs/senior-design.
+Apparently people can't read so we need redundant documentation of who finished what in a week.
+** Tasks Completed by week.
+*** <2018-09-27 Thu>--<2018-10-04 Thu>
+| Andrew Chen      | Taylor He                       | Robert Herley       | Jonathan Pavlik     | Alex Supkay             |
+|------------------+---------------------------------+---------------------+---------------------+-------------------------|
+| Mock Up Designs  | Code Review                     | Mock Up Designs     | Code Review         | K8S Front End Setup     |
+| Stdout MS Format | Health Check Set Up             | K8S Front End Setup | CI Integration      | K8S Mongo End Setup     |
+|                  | Logging Implementation          | K8S Mongo End Setup | Test Cases          | Communicate with Google |
+|                  | Microservice Arch Documentation | Stdout MS Format    | Health Check Set Up | Forms to get GC credits |
+|                  | File Type Checking              |                     | File Type Checking  |                         |
+|                  |                                 |                     | Stdout MS Format    |                         |
+
 * Components
 This section will be expanded as we work through several stages of
 MVPs.

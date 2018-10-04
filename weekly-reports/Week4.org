@@ -1,0 +1,53 @@
+#+TITLE: Weekly Report 4
+#+AUTHOR: Brian Borowski
+
+* Tyr: Report #1
+** Previous Week(3):
+*** Front End
+**** Mock Ups have been Designed.
+**** This week is starting Modular components of parts of it.
+*** Back End
+**** Logging, bare min JWT(expected), easy ways to add APIs implemented.
+***** Tests need to be added for those tools.
+***** Proper logging in microservice took longer than expected to implement.
+**** File type checking routes started implementation.
+***** Tests need to be added for this.
+**** Implement file uploader.
+***** Need to figure out how this is going to work with kubernetes.
+***** This might not be able to be done till we write a service to interact with kubernetes.
+***** TBD how to handle uploaded file.
+*** Op Sec
+**** GitHub permissions now in place. Can no longer push to master, and code review required.
+**** Next we need to set up pipelines to enforce passing tests when code changes are made.
+*** Kubernetes
+**** Deploy MongoDB Sateful
+**** Set up for backend/frontend deployments
+** Current Week(4):
+*** Front End
+**** As discussed in weekly meeting, apparently we need to desing entire front end first.
+**** So front end designs are still in progress before we design modular componenets.
+**** Try to start this week. 
+*** Back End
+**** Implement file uploader.
+***** Discussed with the team. This will be done with gcp.
+****** This week need to implement this. Look in how to do this.
+**** Documentation for first microservice(plauge doctor).
+***** This is the microservice that will handle cms things as well as talking to the other services.
+**** Implement jwt functions.
+***** This might be a multiweek process.
+*** Op Sec
+**** Set up pipeline for plauge doctor.
+**** User database design.
+**** Decide on tokens that should design jwt tokens.
+*** Kubernetes
+**** Backend deployment(waiting on backend).
+
+* Overall Status: On-Track
+  The team has made significant process in setting up a microservice
+  architecture. They now have a way to set up health check endpoints
+  for microservices. They have tested all infrastrcutre realted to
+  testing the architecture. Kubernetes has been set up for front end
+  and mongo deployment. More mock up designs are in progress. The
+  first microservice is in progress. Next week they will design a user
+  db schema, continue setting up Kubernetes, and design more mock ups
+  as wanted by the senior design course instructor.
