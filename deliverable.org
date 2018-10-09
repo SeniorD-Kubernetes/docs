@@ -198,18 +198,8 @@ Here is our timeline of what we expect to have done.
 |  | Student view: Assignment upload view  | Integrate with Kubernetes API (cont)  | -   | - |
 | 12/13/2018 | Student view (cont)  | API for relaying Kubernetes output to front end  | -   | - |
 
-
-
-
-
 + First MVP (Fall Semester): To have a small demo web app that only accepts very specific code
     types and test scripts.
-  + Create a working backend
-    + The baseline code for administration and logging
-    + Type verification for submissions (.zip, .tar, etc)
-    + Kubernetes calls to spin up jobs upon submission
-    + API Service to relay output to the front end
-  + Have a front end November
 + Second MVP
   + Having a more extended web app where we can have users create
     assignments and pick a programming language.
