@@ -24,7 +24,7 @@
 **** Set up for backend/frontend deployments
 ** Current Week(4):
 *** Front End
-**** As discussed in weekly meeting, apparently we need to desing entire front end first.
+**** As discussed in weekly meeting, apparently we need to design entire front end first.
 **** So front end designs are still in progress before we design modular componenets.
 **** Try to start this week. 
 *** Back End
@@ -45,7 +45,7 @@
 * Overall Status: On-Track
   The team has made significant process in setting up a microservice
   architecture. They now have a way to set up health check endpoints
-  for microservices. They have tested all infrastrcutre realted to
+  for microservices. They have tested all infrastructure related to
   testing the architecture. Kubernetes has been set up for front end
   and mongo deployment. More mock up designs are in progress. The
   first microservice is in progress. Next week they will design a user
