@@ -180,9 +180,36 @@ MVPs.
 **** The ability to spin up jobs per user.
 * Project Timeline
 Here is our timeline of what we expect to have done.
-+ First MVP
-  + To have a small demo web app that only accepts very specific code
+
+| Date       | Front End            | Back End       | Kubernetes     | Other/Notes |
+|------------+----------------------+----------------+----------------+-------|
+| 10/11/2018 | Mockup Designs       | Logging boilerplate     | -    | -   | 
+| 10/18/2018 | React skeleton code   | Microservice Health Monitor | -   | -  | 
+| 10/25/2018 | Create student and professor and user accounts | DB schema design for login | Create Deployments for microservices | -  |
+| | | Store student and professor accounts | |
+| 11/01/2018 | Login, logout frontend with jwt encryption | Login authentication API with jwt | Dockerize deployments  | - |
+| | | | Service networking | |
+| 11/08/2018 | Professor view: Layout  | DB schema design for courses, assignments, submissions  | -  | - |
+| 11/15/2018 | Professor view: Assignments component   | File upload API  | -   | - |
+|            | Professor view:  Assignment creation | | | |
+| 11/22/2018 | Professor view: (cont)  | File type verification  | -   | - |
+| 11/29/2018 | Student view: Layout  | Integrate with Kubernetes API for creating jobs  | -   | - |
+| 12/06/2018 | Student view: Assignment view  | Integrate with Kubernetes API (cont)  | -   | - |
+|  | Student view: Assignment upload view  | Integrate with Kubernetes API (cont)  | -   | - |
+| 12/13/2018 | Student view (cont)  | API for relaying Kubernetes output to front end  | -   | - |
+
+
+
+
+
++ First MVP (Fall Semester): To have a small demo web app that only accepts very specific code
     types and test scripts.
+  + Create a working backend
+    + The baseline code for administration and logging
+    + Type verification for submissions (.zip, .tar, etc)
+    + Kubernetes calls to spin up jobs upon submission
+    + API Service to relay output to the front end
+  + Have a front end November
 + Second MVP
   + Having a more extended web app where we can have users create
     assignments and pick a programming language.
