@@ -1,0 +1,62 @@
+digraph Deps {
+   gcp_k8s [label="GCP Kubernetes Cluster"];
+   front_end [label="Front-End Deployment", color=blue]
+   back_end [label="Back-End Deployment", color=red]
+   mongo [label="MongoDB Deployment", color=green]
+   domain [label="Provision Tyr Domain"];
+   gcp_k8s -> front_end
+   gcp_k8s -> back_end
+   gcp_k8s -> mongo
+   gcp_k8s -> domain
+   
+   // Frontend
+   front_end -> "Landing View"
+   front_end -> "Shared React Components"
+   front_end -> "Login Component"
+   "Login Component" -> "Professor View"
+   "Login Component" -> "Student View"
+   "Shared React Components" -> "Professor View" [style=dashed]
+   "Shared React Components" -> "Student View" [style=dashed]
+   "Professor View" -> "View Managed Courses"
+   "View Managed Courses" -> "View Assignments (Professor)"
+   courseS -> "View Managed Courses"
+   "View Assignments (Professor)" -> "Create Assignments"
+   "Create Assignments" -> "Upload Test Script"
+   "File Upload API" -> "Upload Test Script"
+   "View Assignments (Professor)" -> "Grade Submissions"
+   assignS -> "View Assignments (Professor)"
+   "Student View" -> "View Enrolled Courses"
+   courseS -> "View Enrolled Courses" 
+   "View Assignments (Students)" -> "View Previous Submissions"
+   subS -> "View Previous Submissions"
+   assignS -> "View Assignments (Students)"
+   "View Assignments (Students)" -> "Submit New Submission"
+   subS -> "Submit New Submission"
+   "Submit New Submission" -> "Upload Submission"
+   "File Upload API" -> "Upload Submission"
+
+   // Backend
+   auth [label="Authentication API"]
+   back_end -> auth
+   userS -> auth
+   back_end -> "File Upload API"
+   back_end -> "Microservice Arch & Health Checks"
+   back_end -> "K8S Grader Worker"
+   "K8S Grader Worker" -> "K8S Job Creation"
+   "Google Cloud Storage" -> "File Upload API"
+   auth -> "JWT Token Provider"
+   "JWT Token Provider" -> "Login Component"
+   "Microservice Arch & Health Checks" -> auth
+   "File Upload API" -> auth
+
+   // Mongo
+   mongo -> "Create Schemas"
+   userS [label="User Schema"];
+   courseS [label="Course Schema"];
+   assignS [label="Assignments Schema"];
+   subS [label="Submission Schema"];
+   "Create Schemas" -> userS
+   "Create Schemas" -> courseS
+   "Create Schemas" -> assignS
+   "Create Schemas" -> subS
+}
