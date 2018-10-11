@@ -488,6 +488,6 @@
   #+ATTR_LATEX: :width 15cm :placement [h!]
   #+CAPTION: Dependecy Diagram
   #+NAME: fig:Dependency-Diagram
-  [[./dep_diagram.png]]
+  [[./dep_diagram/graph.png]]
   \FloatBarrier
   #+LATEX: \end{landscape}
