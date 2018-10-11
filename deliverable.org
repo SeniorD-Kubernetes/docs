@@ -2,111 +2,141 @@
 #+OPTIONS: author:nil
 #+latex_header: \hypersetup{colorlinks=true}
 #+LATEX_HEADER: \usepackage{placeins}
+#+LATEX_HEADER: \usepackage{pdflscape}
+#+BIND: org-latex-image-default-width "8cm"
 #+MACRO: NEWLINE @@latenx:\\@@
 
 * Project Name Background
-Tyr (pronounced /teer/) is the Nordic god who presides over matters of law, justice
-and wisdom. This name is befitting to our project as we provide
-a strict grading service that will uphold the rules set by 
-educators in their test scripts. In addition, 
-Tyr can be viewed as a pun of the word tear (like teardrop), as the students 
-will be sad when their code fails the test cases.
+  Tyr (pronounced /teer/) is the Nordic god who presides over matters of law, justice
+  and wisdom. This name is befitting to our project as we provide
+  a strict grading service that will uphold the rules set by 
+  educators in their test scripts. In addition, 
+  Tyr can be viewed as a pun of the word tear (like teardrop), as the students 
+  will be sad when their code fails the test cases.
 * Introduction
 ** About
-Tyr is a web application that helps educators assess student
-assignments on a scalable, fault tolerant, and uniform testing
-environment. The professor or educator will write a script to gauge
-the correctness of user submitted code.  The students will upload
-their submissions and run the professor defined tests on their
-code, in a unified environment via a web interface. Tyr differentiates 
-itself from other grading services with its complex management of 
-ephermal single-use containers. The utilization of
-containers provides a few key features:
+   Tyr is a web application that helps educators assess student
+   assignments on a scalable, fault tolerant, and uniform testing
+   environment. The professor or educator will write a script to gauge
+   the correctness of user submitted code.  The students will upload
+   their submissions and run the professor defined tests on their
+   code, in a unified environment via a web interface. Tyr differentiates 
+   itself from other grading services with its complex management of 
+   ephermal single-use containers. The utilization of
+   containers provides a few key features:
 
-1. Fault tolerance: Improper code will not take down the whole server
-2. Scalability: Tyr is able to handle many clients
-3. Uniformity: Every container environment will be the same
+   1. Fault tolerance: Improper code will not take down the whole server
+   2. Scalability: Tyr is able to handle many clients
+   3. Uniformity: Every container environment will be the same
 
-In the back end, Tyr manages a collection of microservices to create
-identical and ephemeral testing environments via a Kubernetes cluster
-hosted on Google Cloud.  For the front end, Tyr provides a web
-interface (https://tyr.tools) to upload code to be processed.
+   In the back end, Tyr manages a collection of microservices to create
+   identical and ephemeral testing environments via a Kubernetes cluster
+   hosted on Google Cloud.  For the front end, Tyr provides a web
+   interface (https://tyr.tools) to upload code to be processed.
 ** Similar tools
-+ Mimir - a scaling platform for testing class room code.
-  + What makes ours different is we our aiming our tool for more than
-  just classrooms.
-  + We are aiming to make Tyr have plugins to other CMS APIs such as
-  the Canvas CMS.
-  + They have set languages. We are making it so we have predefined
-  languages but a user can easily add a new language from the web
-  interface easily.
-+ Codio - An online IDE with a terminal to interface with code.
-  + This requires users to use a terminal. While ours is a web
-    interface with a easy-to-use GUI.
-  + Ideally we will be able to add a terminal interface, but only when
-    wanted.
-+ repl.it - A online IDE that supports many languages.
-  + They are an IDE which could be used to run code consistently, but
-    we want a platform to test code, not develop.
-  + Users would be able to see test cases or a tester would have to
-    upload everyone's files themself after using another service to
-    have them handed in.
+   + Mimir - a scaling platform for testing class room code.
+     + What makes ours different is we our aiming our tool for more than
+     just classrooms.
+     + We are aiming to make Tyr have plugins to other CMS APIs such as
+     the Canvas CMS.
+     + They have set languages. We are making it so we have predefined
+     languages but a user can easily add a new language from the web
+     interface easily.
+   + Codio - An online IDE with a terminal to interface with code.
+     + This requires users to use a terminal. While ours is a web
+       interface with a easy-to-use GUI.
+     + Ideally we will be able to add a terminal interface, but only when
+       wanted.
+   + repl.it - A online IDE that supports many languages.
+     + They are an IDE which could be used to run code consistently, but
+       we want a platform to test code, not develop.
+     + Users would be able to see test cases or a tester would have to
+       upload everyone's files themself after using another service to
+       have them handed in.
 * Technical Plan
-This section's purpose is to list and describe the technology and
-software used for team communication and development.
-| *Category*             | *Type*            | *Software*                  |
-|                        | _Communication_   |                             |
-| Email                  |                   | Stevens email               |
-| Instant Messaging      |                   | Slack                       |
-|                        | _Collaboration_   |                             |
-| Document Collab + Code |                   | Github                      |
-| Task Delegation        |                   | Trello(Spring board)        |
-|                        | _Web Development_ |                             |
-| Supported Browsers     |                   | Chrome, Firefox             |
-| Front End              |                   | NodeJS + React/Redux + SASS |
-| Back End               |                   | Golang                      |
-| Database               |                   | MongoDB                     |
-| Scaling/Management     |                   | Kubernetes                  |
+  This section's purpose is to list and describe the technology and
+  software used for team communication and development.
+  | *Category*             | *Type*            | *Software*                  |
+  |                        | _Communication_   |                             |
+  | Email                  |                   | Stevens email               |
+  | Instant Messaging      |                   | Slack                       |
+  |                        | _Collaboration_   |                             |
+  | Document Collab + Code |                   | Github                      |
+  | Task Delegation        |                   | Trello(Spring board)        |
+  |                        | _Web Development_ |                             |
+  | Supported Browsers     |                   | Chrome, Firefox             |
+  | Front End              |                   | NodeJS + React/Redux + SASS |
+  | Back End               |                   | Golang                      |
+  | Database               |                   | MongoDB                     |
+  | Scaling/Management     |                   | Kubernetes                  |
 * Team Members
 ** Client
-The client is a professor from Stevens Institute of Technology.
-+ Brian Borowski
-  + *Email*: bborowsk@stevens.edu
+   The client is a professor from Stevens Institute of Technology.
+   + Brian Borowski
+     + *Email*: bborowsk@stevens.edu
 ** Team Members
-Below is the list of Team Members and roles. The roles were more
-needed for the Senior D requirement. In actuality all team members
-work collaboratively on all parts.
-+ Andrew Chen - UX Designer/Frontend Developer
-  + *Email*: achen8@stevens.edu
-+ Taylor He - Backend Developer/Software Engineer
-  + *Email*: the2@stevens.edu
-+ Rob Herley - Frontend Developer/Kubernetes/DevOps
-  + *Email*: rherley@stevens.edu
-+ Jonathan Pavlik - Project Manager/Backend Developer/Software Engineer
-  + *Email*: jpavlik1@stevens.edu
-+ Alex Supkay - GCP/Kubernetes Manager
-  + *Email*: asupkay@stevens.edu
+   Below is the list of Team Members and roles. The roles were more
+   needed for the Senior D requirement. In actuality all team members
+   work collaboratively on all parts.
+   + Andrew Chen - UX Designer/Frontend Developer
+     + *Email*: achen8@stevens.edu
+   + Taylor He - Backend Developer/Software Engineer
+     + *Email*: the2@stevens.edu
+   + Rob Herley - Frontend Developer/Kubernetes/DevOps
+     + *Email*: rherley@stevens.edu
+   + Jonathan Pavlik - Project Manager/Backend Developer/Software Engineer
+     + *Email*: jpavlik1@stevens.edu
+   + Alex Supkay - GCP/Kubernetes Manager
+     + *Email*: asupkay@stevens.edu
 * Delegation of Tasks/Completion Schedule
- We are using an agile development system as it allows us to work more
-concurrently on project flow.  To do this we use a Trello Board with
-Esprint planning. Which you can find
-https://trello.com/b/U5NIyhQs/senior-design.  Apparently people can't
-read so we need redundant documentation of who finished what in a
-week.
+  We are using an agile development system as it allows us to work
+  more concurrently on project flow.  To do this we use a Trello Board
+  with Esprint planning. Which you can find
+  https://trello.com/b/U5NIyhQs/senior-design.
+ 
+  #+LATEX: \newpage
+  #+LATEX: \begin{landscape}
 ** Tasks Completed by week.
 *** <2018-09-27 Thu>--<2018-10-04 Thu>
-| Andrew Chen      | Taylor He                       | Robert Herley       | Jonathan Pavlik     | Alex Supkay             |
-|------------------+---------------------------------+---------------------+---------------------+-------------------------|
-| Mock Up Designs  | Code Review                     | Mock Up Designs     | Code Review         | K8S Front End Setup     |
-| Stdout MS Format | Health Check Set Up             | K8S Front End Setup | CI Integration      | K8S Mongo End Setup     |
-|                  | Logging Implementation          | K8S Mongo End Setup | Test Cases          | Communicate with Google |
-|                  | Microservice Arch Documentation | Stdout MS Format    | Health Check Set Up | Forms to get GC credits |
-|                  | File Type Checking              |                     | File Type Checking  |                         |
-|                  |                                 |                     | Stdout MS Format    |                         |
+    
+    Tasks Finished
+    | Andrew Chen      | Taylor He                       | Robert Herley       | Jonathan Pavlik     | Alex Supkay             |
+    |------------------+---------------------------------+---------------------+---------------------+-------------------------|
+    | Mock Up Designs  | Code Review                     | Mock Up Designs     | Code Review         | K8S Front End Setup     |
+    | Stdout MS Format | Health Check Set Up             | K8S Front End Setup | CI Integration      | K8S Mongo End Setup     |
+    |                  | Logging Implementation          | K8S Mongo End Setup | Test Cases          | Communicate with Google |
+    |                  | Microservice Arch Documentation | Stdout MS Format    | Health Check Set Up | Forms to get GC credits |
+    |                  | File Type Checking              |                     | File Type Checking  |                         |
+    |                  |                                 |                     | Stdout MS Format    |                         |
+
+    Tasks Assigned
+    | Andrew Chen      | Taylor He            | Robert Herley          | Jonathan Pavlik           | Alex Supkay            |
+    |------------------+----------------------+------------------------+---------------------------+------------------------|
+    | React Components | Mongo Implementation | React Components       | Database Schema Design    | K8s Deployment Backend |
+    | Code Review      | File Storage Google  | Database Schema Design | Code Review               | Code Review            |
+    |                  | Code Review          | Code Review            | Design First Microservice | Obtain Cloud Credits   |
+    |                  |                      |                        | Authentication Routes     |                        |
+    |                  |                      |                        |                           |                        |
+    
+*** <2018-10-04 Thu>--<2018-10-11 Thu>
+    Tasks Finished
+    | Andrew Chen   | Taylor He     | Robert Herley | Jonathan Pavlik | Alex Supkay   |
+    |---------------+---------------+---------------+-----------------+---------------|
+    | Documentation | Documentation | Documentation | Documenetation  | Documentation |
+    |               |               |               |                 |               |
+
+    Tasks Assigned
+    | Andrew Chen      | Taylor He            | Robert Herley          | Jonathan Pavlik           | Alex Supkay            |
+    |------------------+----------------------+------------------------+---------------------------+------------------------|
+    | React Components | Mongo Implementation | React Components       | Database Schema Design    | K8s Deployment Backend |
+    | Code Review      | File Storage Google  | Database Schema Design | Code Review               | Code Review            |
+    |                  | Code Review          | Code Review            | Design First Microservice | Obtain Cloud Credits   |
+    |                  |                      |                        | Authentication Routes     |                        |
+    #+LATEX: \end{landscape}
 
 * Components
-This section will be expanded as we work through several stages of
-MVPs.
+  This section will be expanded as we work through several stages of
+  MVPs.
 ** Backend: APIs for front end to interact with.
 *** Determine if submission of code is of proper type.
 **** Can specify type of submission such as zip, tar.gz, etc.
@@ -129,274 +159,335 @@ MVPs.
 **** Gives message for max number of attempts reached.
 **** Displays number of attempts left.
 *** A list of image of the current mock up is located below.
+
+    #+BEGIN_center
+    #+LATEX: \newpage
+    #+LATEX: \begin{landscape}
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Homepage
     #+NAME:   fig:MVP1-Homepage-Page
     [[./mockups/first_iter/screens/homepage.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Login
     #+NAME:   fig:MVP1-Login-Page
     [[./mockups/first_iter/screens/login.png]]
-
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Sign Up Page
     #+NAME:   fig:MVP1-Signup-Page
     [[./mockups/first_iter/screens/signup.png]]
-
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Professor's Dashboard
     #+NAME:   fig:MVP1-Professor-Dashboard-Page
     [[./mockups/first_iter/screens/professor_dashboard.png]]
     
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Student's Dashboard
     #+NAME:   fig:MVP1-Student-Dashboard-Page
     [[./mockups/first_iter/screens/student_dashboard.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Student Class Page
     #+NAME:   fig:MVP1-Student-Class-Page
     [[./mockups/first_iter/screens/student_class.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Student Class Assignment Page
     #+NAME:   fig:MVP1-Student-Class-Assignment-Page
     [[./mockups/first_iter/screens/student_class_assignment.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Student Class Assignment Submission Page
     #+NAME:   fig:MVP1-Student-Class-Assignment-Submission-Page
     [[./mockups/first_iter/screens/student_class_assignment_submit.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Professor Create Class Page
     #+NAME:   fig:MVP1-Prof-Class-Page
     [[./mockups/first_iter/screens/professor_createClass.png]]
  
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Professor Class Page
     #+NAME:   fig:MVP1-Prof-Class-Page
     [[./mockups/first_iter/screens/professor_class.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Professor Class Assignment Page
     #+NAME:   fig:MVP-1-Prof-Class-Assignment-Page
     [[./mockups/first_iter/screens/professor_class_assignment.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Professor Class Assignment Submissions Page
     #+NAME:   fig:MVP-1-Prof-Class-Assignment-Submissions-Page
     [[./mockups/first_iter/screens/professor_class_assignment_submissions.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
     #+CAPTION: Professor Class Create Assignment Page
     #+NAME:   fig:MVP-1-Prof-Class-Create-Assignment-Page
     [[./mockups/first_iter/screens/professor_class_createAssignment.png]]
 
     \FloatBarrier
-    
+    #+LATEX: \end{landscape}
+    #+END_center
+
 *** A list of UI flows
 
-    This section is meant to show where each button/element takes you in the
-    application. Some flows are purposefully left out because they are obvious,
-    and take up unnecessary space, such as any file upload/download button, or
-    navigating to login/signup from the homepage, etc.
+    This section is meant to show where each button/element takes you
+    in the application. Some flows are purposefully left out because
+    they are obvious, and take up unnecessary space, such as any file
+    upload/download button, or navigating to login/signup from the
+    homepage, etc.
 
-    The application has some screens that although serve the same purpose, are 
-    different in appearance for Students and Professors in order to allow for
-    each role to perform different tasks
+    The application has some screens that although serve the same
+    purpose, are different in appearance for Students and Professors
+    in order to allow for each role to perform different tasks.
+    
+    #+BEGIN_center
 
-      #+CAPTION: Before Professor Clicks on "New Class" button on Dashboard
-      #+NAME:   fig:MVP-1-Prof-New-Class-Button-Before
-      [[./mockups/first_iter/annotations/professor/new_class_button_BEFORE.png]]
+    #+LATEX: \newpage
+    #+LATEX: \begin{landscape}
 
-      #+CAPTION: During Professor Clicks on "New Class" button on Dashboard
-      #+NAME:   fig:MVP-1-Prof-New-Class-Button-During
-      [[./mockups/first_iter/annotations/professor/new_class_button_DURING.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Clicks on "New Class" button on Dashboard
+    #+NAME:   fig:MVP-1-Prof-New-Class-Button-Before
+    [[./mockups/first_iter/annotations/professor/new_class_button_BEFORE.png]]
 
-      #+CAPTION: After Professor Clicks on "New Class" button on Dashboard
-      #+NAME:   fig:MVP-1-Prof-New-Class-Button-After
-      [[./mockups/first_iter/annotations/professor/new_class_button_AFTER.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Clicks on "New Class" button on Dashboard
+    #+NAME:   fig:MVP-1-Prof-New-Class-Button-During
+    [[./mockups/first_iter/annotations/professor/new_class_button_DURING.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Clicks on "New Class" button on Dashboard
+    #+NAME:   fig:MVP-1-Prof-New-Class-Button-After
+    [[./mockups/first_iter/annotations/professor/new_class_button_AFTER.png]]
 
-      #+CAPTION: Before Professor Creates New Class
-      #+NAME:   fig:MVP-1-Prof-Create-New-Class-Before
-      [[./mockups/first_iter/annotations/professor/create_new_class_BEFORE.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Creates New Class
+    #+NAME:   fig:MVP-1-Prof-Create-New-Class-Before
+    [[./mockups/first_iter/annotations/professor/create_new_class_BEFORE.png]]
 
-      #+CAPTION: During Professor Creates New Class
-      #+NAME:   fig:MVP-1-Prof-Create-New-Class-During
-      [[./mockups/first_iter/annotations/professor/create_new_class_DURING.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Creates New Class
+    #+NAME:   fig:MVP-1-Prof-Create-New-Class-During
+    [[./mockups/first_iter/annotations/professor/create_new_class_DURING.png]]
 
-      #+CAPTION: After Professor Creates New Class
-      #+NAME:   fig:MVP-1-Prof-Create-New-Class-After
-      [[./mockups/first_iter/annotations/professor/create_new_class_AFTER.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Creates New Class
+    #+NAME:   fig:MVP-1-Prof-Create-New-Class-After
+    [[./mockups/first_iter/annotations/professor/create_new_class_AFTER.png]]
 
-      
-      #+CAPTION: Before Professor Clicks on a Class Card to go a Class Page
-      #+NAME:   fig:MVP-1-Prof-Go-To-Class-Before
-      [[./mockups/first_iter/annotations/professor/go_to_class_BEFORE.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Clicks on a Class Card to go a Class Page
+    #+NAME:   fig:MVP-1-Prof-Go-To-Class-Before
+    [[./mockups/first_iter/annotations/professor/go_to_class_BEFORE.png]]
 
-      #+CAPTION: During Professor Clicks on a Class Card to go a Class Page
-      #+NAME:   fig:MVP-1-Prof-Go-To-Class-During
-      [[./mockups/first_iter/annotations/professor/go_to_class_DURING.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Clicks on a Class Card to go a Class Page
+    #+NAME:   fig:MVP-1-Prof-Go-To-Class-During
+    [[./mockups/first_iter/annotations/professor/go_to_class_DURING.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Clicks on a Class Card to go a Class Page
+    #+NAME:   fig:MVP-1-Prof-Go-To-Class-After
+    [[./mockups/first_iter/annotations/professor/go_to_class_AFTER.png]]
 
-      #+CAPTION: After Professor Clicks on a Class Card to go a Class Page
-      #+NAME:   fig:MVP-1-Prof-Go-To-Class-After
-      [[./mockups/first_iter/annotations/professor/go_to_class_AFTER.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Clicks on "New Assignment" button on Class Page
+    #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-Before
+    [[./mockups/first_iter/annotations/professor/create_assignment_button_BEFORE.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Clicks on "New Assignment" button on Class Page
+    #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-During
+    [[./mockups/first_iter/annotations/professor/create_assignment_button_DURING.png]]
 
-      #+CAPTION: Before Professor Clicks on "New Assignment" button on Class Page
-      #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-Before
-      [[./mockups/first_iter/annotations/professor/create_assignment_button_BEFORE.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Clicks on "New Assignment" button on Class Page
+    #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-After
+    [[./mockups/first_iter/annotations/professor/create_assignment_button_AFTER.png]]
 
-      #+CAPTION: During Professor Clicks on "New Assignment" button on Class Page
-      #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-During
-      [[./mockups/first_iter/annotations/professor/create_assignment_button_DURING.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Creates a new Assignment
+    #+NAME:   fig:MVP-1-Prof-New-Assignment-Before
+    [[./mockups/first_iter/annotations/professor/create_assignment_BEFORE.png]]
 
-      #+CAPTION: After Professor Clicks on "New Assignment" button on Class Page
-      #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-After
-      [[./mockups/first_iter/annotations/professor/create_assignment_button_AFTER.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Creates a new Assignment
+    #+NAME:   fig:MVP-1-Prof-New-Assignment-During
+    [[./mockups/first_iter/annotations/professor/create_assignment_DURING.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Creates a new Assignment
+    #+NAME:   fig:MVP-1-Prof-New-Assignment-After
+    [[./mockups/first_iter/annotations/professor/create_assignment_AFTER.png]]
 
-      #+CAPTION: Before Professor Creates a new Assignment
-      #+NAME:   fig:MVP-1-Prof-New-Assignment-Before
-      [[./mockups/first_iter/annotations/professor/create_assignment_BEFORE.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Starts Grader 
+    #+name:   fig:mvp-1-prof-new-assignment-before
+    [[./mockups/first_iter/annotations/professor/start_grader_BEFORE.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Starts Grader
+    #+name:   fig:mvp-1-prof-new-assignment-during
+    [[./mockups/first_iter/annotations/professor/start_grader_DURING.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Starts Grader
+    #+name:   fig:mvp-1-prof-new-assignment-after
+    [[./mockups/first_iter/annotations/professor/start_grader_AFTER.png]]
 
-      #+CAPTION: During Professor Creates a new Assignment
-      #+NAME:   fig:MVP-1-Prof-New-Assignment-During
-      [[./mockups/first_iter/annotations/professor/create_assignment_DURING.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Goes to Grader
+    #+name:   fig:mvp-1-prof-new-assignment-before
+    [[./mockups/first_iter/annotations/professor/go_to_grader_BEFORE.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Goes to Grader 
+    #+name:   fig:mvp-1-prof-new-assignment-during
+    [[./mockups/first_iter/annotations/professor/go_to_grader_DURING.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Goes to Grader 
+    #+name:   fig:mvp-1-prof-new-assignment-after
+    [[./mockups/first_iter/annotations/professor/go_to_grader_AFTER.png]]
 
-      #+CAPTION: After Professor Creates a new Assignment
-      #+NAME:   fig:MVP-1-Prof-New-Assignment-After
-      [[./mockups/first_iter/annotations/professor/create_assignment_AFTER.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Professor Goes to Dashboard from any menu
+    #+name:   fig:mvp-1-prof-new-assignment-before
+    [[./mockups/first_iter/annotations/professor/go_to_dash_BEFORE.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Professor Goes to Dashboard from any menu
+    #+name:   fig:mvp-1-prof-new-assignment-during
+    [[./mockups/first_iter/annotations/professor/go_to_dash_DURING.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Professor Goes to Dashboard from any menu
+    #+name:   fig:mvp-1-prof-new-assignment-after
+    [[./mockups/first_iter/annotations/professor/go_to_dash_AFTER.png]]
 
-      #+CAPTION: Before Professor Starts Grader 
-      #+name:   fig:mvp-1-prof-new-assignment-before
-      [[./mockups/first_iter/annotations/professor/start_grader_BEFORE.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Student Goes To Class Page
+    #+name:   fig:mvp-1-prof-new-assignment-before
+    [[./mockups/first_iter/annotations/student/go_to_class_BEFORE.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Student Goes to Class Page
+    #+name:   fig:mvp-1-prof-new-assignment-during
+    [[./mockups/first_iter/annotations/student/go_to_class_DURING.png]]
 
-      #+caption: During Professor Starts Grader
-      #+name:   fig:mvp-1-prof-new-assignment-during
-      [[./mockups/first_iter/annotations/professor/start_grader_DURING.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After a Student Selects a Course
+    #+name:   fig:mvp-1-prof-new-assignment-after
+    [[./mockups/first_iter/annotations/student/go_to_class_AFTER.png]]
 
-      #+caption: After Professor Starts Grader
-      #+name:   fig:mvp-1-prof-new-assignment-after
-      [[./mockups/first_iter/annotations/professor/start_grader_AFTER.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Student Goes to an Assignment Page
+    #+name:   fig:mvp-1-prof-new-assignment-before
+    [[./mockups/first_iter/annotations/student/go_to_assignment_BEFORE.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Student Goes to an Assignment Page
+    #+name:   fig:mvp-1-prof-new-assignment-during
+    [[./mockups/first_iter/annotations/student/go_to_assignment_DURING.png]]
 
-      #+CAPTION: Before Professor Goes to Grader
-      #+name:   fig:mvp-1-prof-new-assignment-before
-      [[./mockups/first_iter/annotations/professor/go_to_grader_BEFORE.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Student Goes to an Assignment Page
+    #+name:   fig:mvp-1-prof-new-assignment-after
+    [[./mockups/first_iter/annotations/student/go_to_assignment_AFTER.png]]
 
-      #+caption: During Professor Goes to Grader 
-      #+name:   fig:mvp-1-prof-new-assignment-during
-      [[./mockups/first_iter/annotations/professor/go_to_grader_DURING.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Student Clicks on Submit Button on Assignment Page
+    #+name:   fig:mvp-1-prof-new-assignment-before
+    [[./mockups/first_iter/annotations/student/submit_assignment_button_BEFORE.png]]
 
-      #+caption: After Professor Goes to Grader 
-      #+name:   fig:mvp-1-prof-new-assignment-after
-      [[./mockups/first_iter/annotations/professor/go_to_grader_AFTER.png]]
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Student Clicks on Submit Button on Assignment Page
+    #+name:   fig:mvp-1-prof-new-assignment-during
+    [[./mockups/first_iter/annotations/student/submit_assignment_button_DURING.png]]
 
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Student Clicks on Submit Button on Assignment Page
+    #+name:   fig:mvp-1-prof-new-assignment-after
+    [[./mockups/first_iter/annotations/student/submit_assignment_button_AFTER.png]]
 
-      #+CAPTION: Before Professor Goes to Dashboard from any menu
-      #+name:   fig:mvp-1-prof-new-assignment-before
-      [[./mockups/first_iter/annotations/professor/go_to_dash_BEFORE.png]]
-
-      #+caption: During Professor Goes to Dashboard from any menu
-      #+name:   fig:mvp-1-prof-new-assignment-during
-      [[./mockups/first_iter/annotations/professor/go_to_dash_DURING.png]]
-
-      #+caption: After Professor Goes to Dashboard from any menu
-      #+name:   fig:mvp-1-prof-new-assignment-after
-      [[./mockups/first_iter/annotations/professor/go_to_dash_AFTER.png]]
-
-
-      #+CAPTION: Before Student Goes To Class Page
-      #+name:   fig:mvp-1-prof-new-assignment-before
-      [[./mockups/first_iter/annotations/student/go_to_class_BEFORE.png]]
-
-      #+caption: During Student Goes to Class Page
-      #+name:   fig:mvp-1-prof-new-assignment-during
-      [[./mockups/first_iter/annotations/student/go_to_class_DURING.png]]
-
-      #+caption: After Professor Goes to Dashboard from any menu
-      #+name:   fig:mvp-1-prof-new-assignment-after
-      [[./mockups/first_iter/annotations/student/go_to_class_AFTER.png]]
-
-
-      #+CAPTION: Before Student Goes to an Assignment Page
-      #+name:   fig:mvp-1-prof-new-assignment-before
-      [[./mockups/first_iter/annotations/student/go_to_assignment_BEFORE.png]]
-
-      #+caption: During Student Goes to an Assignment Page
-      #+name:   fig:mvp-1-prof-new-assignment-during
-      [[./mockups/first_iter/annotations/student/go_to_assignment_DURING.png]]
-
-      #+caption: After Student Goes to an Assignment Page
-      #+name:   fig:mvp-1-prof-new-assignment-after
-      [[./mockups/first_iter/annotations/student/go_to_assignment_AFTER.png]]
-
-
-      #+CAPTION: Before Student Clicks on Submit Button on Assignment Page
-      #+name:   fig:mvp-1-prof-new-assignment-before
-      [[./mockups/first_iter/annotations/student/submit_assignment_button_BEFORE.png]]
-
-      #+caption: During Student Clicks on Submit Button on Assignment Page
-      #+name:   fig:mvp-1-prof-new-assignment-during
-      [[./mockups/first_iter/annotations/student/submit_assignment_button_DURING.png]]
-
-      #+caption: After Student Clicks on Submit Button on Assignment Page
-      #+name:   fig:mvp-1-prof-new-assignment-after
-      [[./mockups/first_iter/annotations/student/submit_assignment_button_AFTER.png]]
-
-
-      #+CAPTION: Before Student Submits Assignment
-      #+name:   fig:mvp-1-prof-new-assignment-before
-      [[./mockups/first_iter/annotations/student/submit_assignment_BEFORE.png]]
-
-      #+caption: During Student Submits Assignment
-      #+name:   fig:mvp-1-prof-new-assignment-during
-      [[./mockups/first_iter/annotations/student/submit_assignment_DURING.png]]
-
-      #+caption: After Student Submits Assignment
-      #+name:   fig:mvp-1-prof-new-assignment-after
-      [[./mockups/first_iter/annotations/student/submit_assignment_AFTER.png]]
-
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: Before Student Submits Assignment
+    #+name:   fig:mvp-1-prof-new-assignment-before
+    [[./mockups/first_iter/annotations/student/submit_assignment_BEFORE.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: During Student Submits Assignment
+    #+name:   fig:mvp-1-prof-new-assignment-during
+    [[./mockups/first_iter/annotations/student/submit_assignment_DURING.png]]
+    
+    #+ATTR_LATEX: :width 15cm :placement [h!] 
+    #+CAPTION: After Student Submits Assignment
+    #+name:   fig:mvp-1-prof-new-assignment-after
+    [[./mockups/first_iter/annotations/student/submit_assignment_AFTER.png]]
 
     \FloatBarrier
+    #+LATEX: \end{landscape}
+
+    #+END_center
     
 ** Kubernetes: The scaling and environment builder
 *** Need a C++ Environment that can run shell test scripts (First MVP).
 **** Requires setting up Kubernetes infrastructure.
 ***** There's a lot of work to this even though it sounds simple.
 **** The ability to spin up jobs per user.
+     
 * Project Timeline
-Here is our timeline of what we expect to have done.
+  Here is our timeline of what we expect to have done.
+  
+  #+LATEX: \newpage
+  #+LATEX: \begin{landscape}
+  #+ATTR_LATEX: :environment longtable :align |p{4cm}|p{4cm}|p{4cm}|p{4cm}|p{4cm}|
+  | Date       | Front End                                      | Back End                                               | Kubernetes                           | Other/Notes |
+  |------------+------------------------------------------------+--------------------------------------------------------+--------------------------------------+-------------|
+  | 10/11/2018 | Mockup Designs                                 | Logging boilerplate                                    | -                                    | -           |
+  | 10/18/2018 | React skeleton code                            | Microservice Health Monitor                            | -                                    | -           |
+  | 10/25/2018 | Create student and professor and user accounts | DB schema design for login                             | Create Deployments for microservices | -           |
+  |            |                                                | Store student and professor accounts                   |                                      |             |
+  | 11/01/2018 | Login, logout frontend with jwt encryption     | Login authentication API with jwt                      | Dockerize deployments                | -           |
+  |            |                                                |                                                        | Service networking                   |             |
+  | 11/08/2018 | Professor view: Layout                         | DB schema design for courses, assignments, submissions | -                                    | -           |
+  | 11/15/2018 | Professor view: Assignments component          | File upload API                                        | -                                    | -           |
+  |            | Professor view:  Assignment creation           |                                                        |                                      |             |
+  | 11/22/2018 | Professor view: (cont)                         | File type verification                                 | -                                    | -           |
+  | 11/29/2018 | Student view: Layout                           | Integrate with Kubernetes API for creating jobs        | -                                    | -           |
+  | 12/06/2018 | Student view: Assignment view                  | Integrate with Kubernetes API (cont)                   | -                                    | -           |
+  |            | Student view: Assignment upload view           | Integrate with Kubernetes API (cont)                   | -                                    | -           |
+  | 12/13/2018 | Student view (cont)                            | API for relaying Kubernetes output to front end        | -                                    | -           |
+  #+LATEX: \end{landscape}
 
-| Date       | Front End                                      | Back End                                               | Kubernetes                           | Other/Notes |
-|------------+------------------------------------------------+--------------------------------------------------------+--------------------------------------+-------------|
-| 10/11/2018 | Mockup Designs                                 | Logging boilerplate                                    | -                                    | -           |
-| 10/18/2018 | React skeleton code                            | Microservice Health Monitor                            | -                                    | -           |
-| 10/25/2018 | Create student and professor and user accounts | DB schema design for login                             | Create Deployments for microservices | -           |
-|            |                                                | Store student and professor accounts                   |                                      |             |
-| 11/01/2018 | Login, logout frontend with jwt encryption     | Login authentication API with jwt                      | Dockerize deployments                | -           |
-|            |                                                |                                                        | Service networking                   |             |
-| 11/08/2018 | Professor view: Layout                         | DB schema design for courses, assignments, submissions | -                                    | -           |
-| 11/15/2018 | Professor view: Assignments component          | File upload API                                        | -                                    | -           |
-|            | Professor view:  Assignment creation           |                                                        |                                      |             |
-| 11/22/2018 | Professor view: (cont)                         | File type verification                                 | -                                    | -           |
-| 11/29/2018 | Student view: Layout                           | Integrate with Kubernetes API for creating jobs        | -                                    | -           |
-| 12/06/2018 | Student view: Assignment view                  | Integrate with Kubernetes API (cont)                   | -                                    | -           |
-|            | Student view: Assignment upload view           | Integrate with Kubernetes API (cont)                   | -                                    | -           |
-| 12/13/2018 | Student view (cont)                            | API for relaying Kubernetes output to front end        | -                                    | -           |
+  + First MVP (Fall Semester): To have a small demo web app that only
+    accepts very specific code types and test scripts.
+  + Second MVP
+    + Having a more extended web app where we can have users create
+      assignments and pick a programming language.
+  + Final Product
+    + Having hopefully our final product finished. Where adding a
+      programming language can easily be added, we accept many file
+      types and we are fully scalable. Hopefully we can give users a
+      terminal interface through our web page as well.
+  #+ATTR_LATEX: :width 15cm :placement [h!] 
+  #+CAPTION: Timeline
+  #+NAME: fig:Timeline
+  [[./timeline.jpg]]
 
-+ First MVP (Fall Semester): To have a small demo web app that only
-  accepts very specific code types and test scripts.
-+ Second MVP
-  + Having a more extended web app where we can have users create
-    assignments and pick a programming language.
-+ Final Product
-  + Having hopefully our final product finished. Where adding a
-    programming language can easily be added, we accept many file
-    types and we are fully scalable. Hopefully we can give users a
-    terminal interface through our web page as well.
-#+CAPTION: Timeline
-#+NAME: fig:Timeline
-[[./timeline.jpg]]
+  \FloatBarrier
 
-\FloatBarrier
-
+  #+LATEX: \newpage
+  #+LATEX: \begin{landscape}
 * Dependency Diagram
-Below is our dependency diagram.
-#+CAPTION: Dependecy Diagram
-#+NAME: fig:Dependency-Diagram
-[[./dep_diagram.png]]
-
-\FloatBarrier
+  Below is our dependency diagram.
+  #+ATTR_LATEX: :width 15cm :placement [h!]
+  #+CAPTION: Dependecy Diagram
+  #+NAME: fig:Dependency-Diagram
+  [[./dep_diagram.png]]
+  \FloatBarrier
+  #+LATEX: \end{landscape}
