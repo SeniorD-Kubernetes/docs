@@ -131,47 +131,224 @@ MVPs.
 *** A list of image of the current mock up is located below.
     #+CAPTION: Homepage
     #+NAME:   fig:MVP1-Homepage-Page
-    [[./mockups/first_iter/homepage.png]]
-    
-    #+CAPTION: Dashboard
-    #+NAME:   fig:MVP1-Dashboard-Page
-    [[./mockups/first_iter/dashboard.png]]
+    [[./mockups/first_iter/screens/homepage.png]]
 
     #+CAPTION: Login
     #+NAME:   fig:MVP1-Login-Page
-    [[./mockups/first_iter/login.png]]
+    [[./mockups/first_iter/screens/login.png]]
 
-    #+CAPTION: Signup
+    #+CAPTION: Sign Up Page
     #+NAME:   fig:MVP1-Signup-Page
-    [[./mockups/first_iter/signup.png]]
+    [[./mockups/first_iter/screens/signup.png]]
+
+    #+CAPTION: Professor's Dashboard
+    #+NAME:   fig:MVP1-Professor-Dashboard-Page
+    [[./mockups/first_iter/screens/professor_dashboard.png]]
+    
+    #+CAPTION: Student's Dashboard
+    #+NAME:   fig:MVP1-Student-Dashboard-Page
+    [[./mockups/first_iter/screens/student_dashboard.png]]
 
     #+CAPTION: Student Class Page
     #+NAME:   fig:MVP1-Student-Class-Page
-    [[./mockups/first_iter/student_class.png]]
+    [[./mockups/first_iter/screens/student_class.png]]
 
     #+CAPTION: Student Class Assignment Page
     #+NAME:   fig:MVP1-Student-Class-Assignment-Page
-    [[./mockups/first_iter/student_class_assignment.png]]
+    [[./mockups/first_iter/screens/student_class_assignment.png]]
 
     #+CAPTION: Student Class Assignment Submission Page
     #+NAME:   fig:MVP1-Student-Class-Assignment-Submission-Page
-    [[./mockups/first_iter/student_class_assignment_submit.png]]
+    [[./mockups/first_iter/screens/student_class_assignment_submit.png]]
+
+    #+CAPTION: Professor Create Class Page
+    #+NAME:   fig:MVP1-Prof-Class-Page
+    [[./mockups/first_iter/screens/professor_createClass.png]]
  
     #+CAPTION: Professor Class Page
     #+NAME:   fig:MVP1-Prof-Class-Page
-    [[./mockups/first_iter/professor_class.png]]
+    [[./mockups/first_iter/screens/professor_class.png]]
 
     #+CAPTION: Professor Class Assignment Page
     #+NAME:   fig:MVP-1-Prof-Class-Assignment-Page
-    [[./mockups/first_iter/professor_class_assignment.png]]
+    [[./mockups/first_iter/screens/professor_class_assignment.png]]
 
     #+CAPTION: Professor Class Assignment Submissions Page
     #+NAME:   fig:MVP-1-Prof-Class-Assignment-Submissions-Page
-    [[./mockups/first_iter/professor_class_assignment_submissions.png]]
+    [[./mockups/first_iter/screens/professor_class_assignment_submissions.png]]
 
     #+CAPTION: Professor Class Create Assignment Page
     #+NAME:   fig:MVP-1-Prof-Class-Create-Assignment-Page
-    [[./mockups/first_iter/professor_class_createAssignment.png]]
+    [[./mockups/first_iter/screens/professor_class_createAssignment.png]]
+
+    \FloatBarrier
+    
+*** A list of UI flows
+
+    This section is meant to show where each button/element takes you in the
+    application. Some flows are purposefully left out because they are obvious,
+    and take up unnecessary space, such as any file upload/download button, or
+    navigating to login/signup from the homepage, etc.
+
+    The application has some screens that although serve the same purpose, are 
+    different in appearance for Students and Professors in order to allow for
+    each role to perform different tasks
+
+      #+CAPTION: Before Professor Clicks on "New Class" button on Dashboard
+      #+NAME:   fig:MVP-1-Prof-New-Class-Button-Before
+      [[./mockups/first_iter/annotations/professor/new_class_button_BEFORE.png]]
+
+      #+CAPTION: During Professor Clicks on "New Class" button on Dashboard
+      #+NAME:   fig:MVP-1-Prof-New-Class-Button-During
+      [[./mockups/first_iter/annotations/professor/new_class_button_DURING.png]]
+
+      #+CAPTION: After Professor Clicks on "New Class" button on Dashboard
+      #+NAME:   fig:MVP-1-Prof-New-Class-Button-After
+      [[./mockups/first_iter/annotations/professor/new_class_button_AFTER.png]]
+
+
+      #+CAPTION: Before Professor Creates New Class
+      #+NAME:   fig:MVP-1-Prof-Create-New-Class-Before
+      [[./mockups/first_iter/annotations/professor/create_new_class_BEFORE.png]]
+
+      #+CAPTION: During Professor Creates New Class
+      #+NAME:   fig:MVP-1-Prof-Create-New-Class-During
+      [[./mockups/first_iter/annotations/professor/create_new_class_DURING.png]]
+
+      #+CAPTION: After Professor Creates New Class
+      #+NAME:   fig:MVP-1-Prof-Create-New-Class-After
+      [[./mockups/first_iter/annotations/professor/create_new_class_AFTER.png]]
+
+      
+      #+CAPTION: Before Professor Clicks on a Class Card to go a Class Page
+      #+NAME:   fig:MVP-1-Prof-Go-To-Class-Before
+      [[./mockups/first_iter/annotations/professor/go_to_class_BEFORE.png]]
+
+      #+CAPTION: During Professor Clicks on a Class Card to go a Class Page
+      #+NAME:   fig:MVP-1-Prof-Go-To-Class-During
+      [[./mockups/first_iter/annotations/professor/go_to_class_DURING.png]]
+
+      #+CAPTION: After Professor Clicks on a Class Card to go a Class Page
+      #+NAME:   fig:MVP-1-Prof-Go-To-Class-After
+      [[./mockups/first_iter/annotations/professor/go_to_class_AFTER.png]]
+
+
+      #+CAPTION: Before Professor Clicks on "New Assignment" button on Class Page
+      #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-Before
+      [[./mockups/first_iter/annotations/professor/create_assignment_button_BEFORE.png]]
+
+      #+CAPTION: During Professor Clicks on "New Assignment" button on Class Page
+      #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-During
+      [[./mockups/first_iter/annotations/professor/create_assignment_button_DURING.png]]
+
+      #+CAPTION: After Professor Clicks on "New Assignment" button on Class Page
+      #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-After
+      [[./mockups/first_iter/annotations/professor/create_assignment_button_AFTER.png]]
+
+
+      #+CAPTION: Before Professor Creates a new Assignment
+      #+NAME:   fig:MVP-1-Prof-New-Assignment-Before
+      [[./mockups/first_iter/annotations/professor/create_assignment_BEFORE.png]]
+
+      #+CAPTION: During Professor Creates a new Assignment
+      #+NAME:   fig:MVP-1-Prof-New-Assignment-During
+      [[./mockups/first_iter/annotations/professor/create_assignment_DURING.png]]
+
+      #+CAPTION: After Professor Creates a new Assignment
+      #+NAME:   fig:MVP-1-Prof-New-Assignment-After
+      [[./mockups/first_iter/annotations/professor/create_assignment_AFTER.png]]
+
+
+      #+CAPTION: Before Professor Starts Grader 
+      #+name:   fig:mvp-1-prof-new-assignment-before
+      [[./mockups/first_iter/annotations/professor/start_grader_BEFORE.png]]
+
+      #+caption: During Professor Starts Grader
+      #+name:   fig:mvp-1-prof-new-assignment-during
+      [[./mockups/first_iter/annotations/professor/start_grader_DURING.png]]
+
+      #+caption: After Professor Starts Grader
+      #+name:   fig:mvp-1-prof-new-assignment-after
+      [[./mockups/first_iter/annotations/professor/start_grader_AFTER.png]]
+
+
+      #+CAPTION: Before Professor Goes to Grader
+      #+name:   fig:mvp-1-prof-new-assignment-before
+      [[./mockups/first_iter/annotations/professor/go_to_grader_BEFORE.png]]
+
+      #+caption: During Professor Goes to Grader 
+      #+name:   fig:mvp-1-prof-new-assignment-during
+      [[./mockups/first_iter/annotations/professor/go_to_grader_DURING.png]]
+
+      #+caption: After Professor Goes to Grader 
+      #+name:   fig:mvp-1-prof-new-assignment-after
+      [[./mockups/first_iter/annotations/professor/go_to_grader_AFTER.png]]
+
+
+      #+CAPTION: Before Professor Goes to Dashboard from any menu
+      #+name:   fig:mvp-1-prof-new-assignment-before
+      [[./mockups/first_iter/annotations/professor/go_to_dash_BEFORE.png]]
+
+      #+caption: During Professor Goes to Dashboard from any menu
+      #+name:   fig:mvp-1-prof-new-assignment-during
+      [[./mockups/first_iter/annotations/professor/go_to_dash_DURING.png]]
+
+      #+caption: After Professor Goes to Dashboard from any menu
+      #+name:   fig:mvp-1-prof-new-assignment-after
+      [[./mockups/first_iter/annotations/professor/go_to_dash_AFTER.png]]
+
+
+      #+CAPTION: Before Student Goes To Class Page
+      #+name:   fig:mvp-1-prof-new-assignment-before
+      [[./mockups/first_iter/annotations/student/go_to_class_BEFORE.png]]
+
+      #+caption: During Student Goes to Class Page
+      #+name:   fig:mvp-1-prof-new-assignment-during
+      [[./mockups/first_iter/annotations/student/go_to_class_DURING.png]]
+
+      #+caption: After Professor Goes to Dashboard from any menu
+      #+name:   fig:mvp-1-prof-new-assignment-after
+      [[./mockups/first_iter/annotations/student/go_to_class_AFTER.png]]
+
+
+      #+CAPTION: Before Student Goes to an Assignment Page
+      #+name:   fig:mvp-1-prof-new-assignment-before
+      [[./mockups/first_iter/annotations/student/go_to_assignment_BEFORE.png]]
+
+      #+caption: During Student Goes to an Assignment Page
+      #+name:   fig:mvp-1-prof-new-assignment-during
+      [[./mockups/first_iter/annotations/student/go_to_assignment_DURING.png]]
+
+      #+caption: After Student Goes to an Assignment Page
+      #+name:   fig:mvp-1-prof-new-assignment-after
+      [[./mockups/first_iter/annotations/student/go_to_assignment_AFTER.png]]
+
+
+      #+CAPTION: Before Student Clicks on Submit Button on Assignment Page
+      #+name:   fig:mvp-1-prof-new-assignment-before
+      [[./mockups/first_iter/annotations/student/submit_assignment_button_BEFORE.png]]
+
+      #+caption: During Student Clicks on Submit Button on Assignment Page
+      #+name:   fig:mvp-1-prof-new-assignment-during
+      [[./mockups/first_iter/annotations/student/submit_assignment_button_DURING.png]]
+
+      #+caption: After Student Clicks on Submit Button on Assignment Page
+      #+name:   fig:mvp-1-prof-new-assignment-after
+      [[./mockups/first_iter/annotations/student/submit_assignment_button_AFTER.png]]
+
+
+      #+CAPTION: Before Student Submits Assignment
+      #+name:   fig:mvp-1-prof-new-assignment-before
+      [[./mockups/first_iter/annotations/student/submit_assignment_BEFORE.png]]
+
+      #+caption: During Student Submits Assignment
+      #+name:   fig:mvp-1-prof-new-assignment-during
+      [[./mockups/first_iter/annotations/student/submit_assignment_DURING.png]]
+
+      #+caption: After Student Submits Assignment
+      #+name:   fig:mvp-1-prof-new-assignment-after
+      [[./mockups/first_iter/annotations/student/submit_assignment_AFTER.png]]
+
 
     \FloatBarrier
     
