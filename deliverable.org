@@ -79,61 +79,254 @@
    needed for the Senior D requirement. In actuality all team members
    work collaboratively on all parts.
    + Andrew Chen - UX Designer/Frontend Developer
+     + *Grader*
+       + CS 546
+       + Professor Hill
+       + phill@stevens.edu
      + *Email*: achen8@stevens.edu
    + Taylor He - Backend Developer/Software Engineer
      + *Email*: the2@stevens.edu
+     + *TA*
+       + CS 306
+       + Professor Triandopoulos
+       + ntriando@stevens.edu
    + Rob Herley - Frontend Developer/Kubernetes/DevOps
      + *Email*: rherley@stevens.edu
+     + *TA*
+       + CS 146
+       + Professor Herc
+       + itsekour@stevens.edu
+     + *TA*
+       + CS 546
+       + Professor Hill
+       + phill@stevens.edu
    + Jonathan Pavlik - Project Manager/Backend Developer/Software Engineer
      + *Email*: jpavlik1@stevens.edu
+     + *TA*
+       + CS 385
+       + Professor Borowski
+       + bborowsk@stevens.edu
    + Alex Supkay - GCP/Kubernetes Manager
      + *Email*: asupkay@stevens.edu
+     + *TA*
+       + CS 511
+       + Professor Bonelli
+       + ebonelli@stevens.edu
 * Delegation of Tasks/Completion Schedule
   We are using an agile development system as it allows us to work
   more concurrently on project flow.  To do this we use a Trello Board
   with Esprint planning. Which you can find
   https://trello.com/b/U5NIyhQs/senior-design.
  
-  #+LATEX: \newpage
-  #+LATEX: \begin{landscape}
 ** Tasks Completed by week.
 *** <2018-09-27 Thu>--<2018-10-04 Thu>
-    
-    Tasks Finished
-    | Andrew Chen      | Taylor He                       | Robert Herley       | Jonathan Pavlik     | Alex Supkay             |
-    |------------------+---------------------------------+---------------------+---------------------+-------------------------|
-    | Mock Up Designs  | Code Review                     | Mock Up Designs     | Code Review         | K8S Front End Setup     |
-    | Stdout MS Format | Health Check Set Up             | K8S Front End Setup | CI Integration      | K8S Mongo End Setup     |
-    |                  | Logging Implementation          | K8S Mongo End Setup | Test Cases          | Communicate with Google |
-    |                  | Microservice Arch Documentation | Stdout MS Format    | Health Check Set Up | Forms to get GC credits |
-    |                  | File Type Checking              |                     | File Type Checking  |                         |
-    |                  |                                 |                     | Stdout MS Format    |                         |
+  + Andrew Chen
+    + Assigned Previous Week
+      + Mock Up Designs
+      + Stdout MS Format
+    + Finished Previous Week
+      + Mock Up Designs
+      + Stdout MS Format
+    + Todo Next Week
+      + React Components
+      + Code Review
 
-    Tasks Assigned
-    | Andrew Chen      | Taylor He            | Robert Herley          | Jonathan Pavlik           | Alex Supkay            |
-    |------------------+----------------------+------------------------+---------------------------+------------------------|
-    | React Components | Mongo Implementation | React Components       | Database Schema Design    | K8s Deployment Backend |
-    | Code Review      | File Storage Google  | Database Schema Design | Code Review               | Code Review            |
-    |                  | Code Review          | Code Review            | Design First Microservice | Obtain Cloud Credits   |
-    |                  |                      |                        | Authentication Routes     |                        |
-    |                  |                      |                        |                           |                        |
+  + Taylor He
+    + Assigned Previous Week
+      + Code Review
+      + Health Check Set Up
+      + Logging Implementation
+      + Microservice Arch Documentation
+      + File Type Checking
+    + Finished Previous Week
+      + Code Review
+      + Health Check Set Up
+      + Logging Implementation
+      + Microservice Arch Documentation
+      + File Type Checking
+    + Todo Next Week
+      + Mongo Implementation
+      + File Storage Google
+      + Code Review
     
+  + Robert Herley
+    + Assigned Previous Week
+      + Mock Up Designs
+      + K8S Front End Setup
+      + K8S Mongo End Setup
+      + Stdout MS Format
+    + Finished Previous Week
+      + Mock Up Designs
+      + K8S Front End Setup
+      + K8S Mongo End Setup
+      + Stdout MS Format
+    + Todo Next Week
+      + React Components
+      + Code Review
+      + Database User Schema design
+
+  + Jonathan Pavlik
+    + Assigned Previous Week
+      + Code Review
+      + CI Integration
+      + Test Cases
+      + Health Check Set Up
+      + File Type Checking
+      + Stdout MS Formating
+    + Finished Previous Week
+      + Code Review
+      + CI Integration
+      + Test Cases
+      + Health Check Set Up
+      + File Type Checking
+      + Stdout MS Formating
+    + Todo Next Week
+      + Database User Schema Design
+      + Code REview
+      + Authentication Routes
+
+  + Alex Supkay
+    + Assigned Previous Week
+      + K8S Front End Setup
+      + K8S Mongo End Setup
+      + Communicate with Google(more credits)
+    + Finished Previous Week
+      + K8S Front End Setup
+      + K8S Mongo End Setup
+      + Communicate with Google(more credits)
+    + Todo Next Week
+      + K8's Deployment Backend
+      + Code Review
+      + Obtain Cloud Credits
+
 *** <2018-10-04 Thu>--<2018-10-11 Thu>
-    Tasks Finished
-    | Andrew Chen   | Taylor He     | Robert Herley | Jonathan Pavlik | Alex Supkay   |
-    |---------------+---------------+---------------+-----------------+---------------|
-    | Documentation | Documentation | Documentation | Documenetation  | Documentation |
-    |               |               |               |                 |               |
+  + Andrew Chen
+    + Assigned Previous Week
+      + React Components
+      + Code Review
+    + Finished Previous Week
+      + Documentation
+    + Todo Next Week
+      + React Components
+      + Code Review
 
-    Tasks Assigned
-    | Andrew Chen      | Taylor He            | Robert Herley          | Jonathan Pavlik           | Alex Supkay            |
-    |------------------+----------------------+------------------------+---------------------------+------------------------|
-    | React Components | Mongo Implementation | React Components       | Database Schema Design    | K8s Deployment Backend |
-    | Code Review      | File Storage Google  | Database Schema Design | Code Review               | Code Review            |
-    |                  | Code Review          | Code Review            | Design First Microservice | Obtain Cloud Credits   |
-    |                  |                      |                        | Authentication Routes     |                        |
-    #+LATEX: \end{landscape}
+  + Taylor He
+    + Assigned Previous Week
+      + Mongo Implementation
+      + File Storage Google
+      + Code Review
+    + Finished Previous Week
+      + Documentation
+    + Todo Next Week
+      + Mongo Implementation
+      + File Storage Google
+      + Code Review
+    
+  + Robert Herley
+    + Assigned Previous Week
+      + React Components
+      + Code Review
+      + Database User Schema design
+    + Finished Previous Week
+      + Documentation
+    + Todo Next Week
+      + React Components
+      + Code Review
+      + Database User Schema design
 
+  + Jonathan Pavlik
+    + Assigned Previous Week
+      + Database User Schema Design
+      + Code Review
+      + Authentication Routes
+    + Finished Previous Week
+      + Documentation
+    + Todo Next Week
+      + Database User Schema Design
+      + Code Review
+      + Authentication Routes
+
+  + Alex Supkay
+    + Assigned Previous Week
+      + K8's Deployment Backend
+      + Code Review
+      + Obtain Cloud Credits
+    + Finished Previous Week
+      + Documentation
+    + Todo Next Week
+      + K8's Deployment Backend
+      + Code Review
+      + Obtain Cloud Credits
+*** <2018-10-04 Thu>--<2018-10-11 Thu>
+  + Andrew Chen
+    + Assigned Previous Week
+      + Simple React Components
+      + Code Review
+    + Finished Previous Week
+      + Simple React Components
+      + Code Review
+    + Todo Next Week
+      + React Components for MVP(login/submission).
+      + Code Review
+
+  + Taylor He
+    + Assigned Previous Week
+      + Mongo Implementation
+      + File Storage Google
+      + Code Review
+    + Finished Previous Week
+      + Mogno Implementation
+      + Code Review
+    + Todo Next Week
+      + File Storage Google
+      + Email Validation
+      + Test Mongo health checks
+    
+  + Robert Herley
+    + Assigned Previous Week
+      + Simple React Components
+      + Code Review
+      + Database User Schema Design
+    + Finished Previous Week
+      + Simple React Components
+      + Code Review
+      + Database User Schema Design
+      + Color palette
+      + Logo
+    + Todo Next Week
+      + React Components for MVP(login/submission).
+      + Disccusion of microservice for court herald.
+      + Code Review
+      + K8s CI
+      + K8s env variables
+
+  + Jonathan Pavlik
+    + Assigned Previous Week
+      + Database User Schema Design
+      + Code Review
+      + Authentication Routes
+    + Finished Previous Week
+      + Database User Schema Design
+      + Code Review
+      + Authentication Routes
+    + Todo Next Week
+      + Discuss Court Herald Service.
+      + Test Auth Routes.
+      + Add routes for main microservice to talk to court herald service.
+
+  + Alex Supkay
+    + Assigned Previous Week
+      + K8's Deployment Backend
+      + Code Review
+      + Obtain Cloud Credits
+    + Finished Previous Week
+      + Code Review
+      + Obtain Cloud Credits
+    + Todo Next Week
+      + Obtain Cloud Credits
+      + Venture Center Talk Stuff
+      + Env variables
+      + K8's Deployment Backend
 * Components
   This section will be expanded as we work through several stages of
   MVPs.
@@ -158,80 +351,6 @@
 **** Gives message for incorrect submission upload.
 **** Gives message for max number of attempts reached.
 **** Displays number of attempts left.
-*** A list of image of the current mock up is located below.
-
-    #+BEGIN_center
-    #+LATEX: \newpage
-    #+LATEX: \begin{landscape}
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Homepage
-    #+NAME:   fig:MVP1-Homepage-Page
-    [[./mockups/first_iter/screens/homepage.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Login
-    #+NAME:   fig:MVP1-Login-Page
-    [[./mockups/first_iter/screens/login.png]]
-    
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Sign Up Page
-    #+NAME:   fig:MVP1-Signup-Page
-    [[./mockups/first_iter/screens/signup.png]]
-    
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Professor's Dashboard
-    #+NAME:   fig:MVP1-Professor-Dashboard-Page
-    [[./mockups/first_iter/screens/professor_dashboard.png]]
-    
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Student's Dashboard
-    #+NAME:   fig:MVP1-Student-Dashboard-Page
-    [[./mockups/first_iter/screens/student_dashboard.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Student Class Page
-    #+NAME:   fig:MVP1-Student-Class-Page
-    [[./mockups/first_iter/screens/student_class.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Student Class Assignment Page
-    #+NAME:   fig:MVP1-Student-Class-Assignment-Page
-    [[./mockups/first_iter/screens/student_class_assignment.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Student Class Assignment Submission Page
-    #+NAME:   fig:MVP1-Student-Class-Assignment-Submission-Page
-    [[./mockups/first_iter/screens/student_class_assignment_submit.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Professor Create Class Page
-    #+NAME:   fig:MVP1-Prof-Class-Page
-    [[./mockups/first_iter/screens/professor_createClass.png]]
- 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Professor Class Page
-    #+NAME:   fig:MVP1-Prof-Class-Page
-    [[./mockups/first_iter/screens/professor_class.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Professor Class Assignment Page
-    #+NAME:   fig:MVP-1-Prof-Class-Assignment-Page
-    [[./mockups/first_iter/screens/professor_class_assignment.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Professor Class Assignment Submissions Page
-    #+NAME:   fig:MVP-1-Prof-Class-Assignment-Submissions-Page
-    [[./mockups/first_iter/screens/professor_class_assignment_submissions.png]]
-
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Professor Class Create Assignment Page
-    #+NAME:   fig:MVP-1-Prof-Class-Create-Assignment-Page
-    [[./mockups/first_iter/screens/professor_class_createAssignment.png]]
-
-    \FloatBarrier
-    #+LATEX: \end{landscape}
-    #+END_center
-
 *** A list of UI flows
 
     This section is meant to show where each button/element takes you

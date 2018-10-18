@@ -1,0 +1,36 @@
+#+TITLE: Weekly Report 4
+#+AUTHOR: Brian Borowski
+
+* Tyr: Report #1
+** Previous Week(4):
+*** Front End
+**** A lot of diagrams have been created describing the mock ups.
+*** Documentation
+**** Dep Diagram Update
+**** Many other big documentation updates.
+
+** Current Week(5):
+*** Front End
+**** As discussed in weekly meeting, apparently we need to design entire front end first.
+**** So front end designs are still in progress before we design modular componenets.
+**** Try to start this week. 
+*** Back End
+**** Implement file uploader.
+***** Discussed with the team. This will be done with gcp.
+****** This week need to implement this. Look in how to do this.
+**** Documentation for first microservice(plauge doctor).
+***** This is the microservice that will handle cms things as well as talking to the other services.
+**** Implement jwt functions.
+***** This might be a multiweek process.
+*** Op Sec
+**** Set up pipeline for plauge doctor.
+**** User database design.
+**** Decide on tokens that should design jwt tokens.
+*** Kubernetes
+**** Backend deployment(waiting on backend).
+
+* Overall Status: Behind Schedule
+  The team did not got much done this week. This is due to midterms
+  period as well as all the document work they had to accomplish. What
+  they planned to accomplish last week has been moved to be worked on
+  this week.
