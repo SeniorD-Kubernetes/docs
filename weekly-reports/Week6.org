@@ -2,7 +2,7 @@
   discussed with them. Progress has started on the bits and pieces of
   that.
   
-#+TITLE: Weekly Report 4
+#+TITLE: Weekly Report 6
 #+AUTHOR: Brian Borowski
 
 * Tyr: Report #1
