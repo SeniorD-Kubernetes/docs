@@ -1,0 +1,52 @@
+  are working on authentication, and starting to gear first MVP I
+  discussed with them. Progress has started on the bits and pieces of
+  that.
+  
+#+TITLE: Weekly Report 7
+#+AUTHOR: Brian Borowski
+
+* Tyr: Report
+** Previous Week(6):
+*** Front End
+**** Start designing parts of MVP.
+***** Login Page
+***** Upload Page
+**** Tyr logo designed. 
+**** Color palette decided.
+*** Back End
+**** File uploader.
+***** This was not done last week.
+***** Team prioritized authentication mongo set up and auth.
+**** Start discussing how to interact with K8s
+**** Authentication
+***** Tests.
+***** Email Validation.
+***** Forgot Password route.
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Start the process of looking into starting a job per language.
+
+
+** Current Week(5):
+*** Front End
+**** Start designing parts of MVP.
+***** Login Page wip
+***** Upload Page wip
+*** Back End
+**** Mongo schema models
+**** Authentication
+***** Tests could not be done last week due to mongo models not decided upon.
+***** JWT token handler.
+***** Forgot Password route.
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Ingress Controller
+**** Set up certs.
+**** Job set up.
+
+* Overall Status: Behind schedule
+  Team next week said they can demo part of the website to
+  me. Specifically demoing how they are handling users logging in and
+  how efficient it will be. 

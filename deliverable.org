@@ -117,216 +117,288 @@
   more concurrently on project flow.  To do this we use a Trello Board
   with Esprint planning. Which you can find
   https://trello.com/b/U5NIyhQs/senior-design.
- 
+  
 ** Tasks Completed by week.
 *** <2018-09-27 Thu>--<2018-10-04 Thu>
-  + Andrew Chen
-    + Assigned Previous Week
-      + Mock Up Designs
-      + Stdout MS Format
-    + Finished Previous Week
-      + Mock Up Designs
-      + Stdout MS Format
-    + Todo Next Week
-      + React Components
-      + Code Review
+    + Andrew Chen
+      + Assigned Previous Week
+        + Mock Up Designs
+        + Stdout MS Format
+      + Finished Previous Week
+        + Mock Up Designs
+        + Stdout MS Format
+      + Todo Next Week
+        + React Components
+        + Code Review
 
-  + Taylor He
-    + Assigned Previous Week
-      + Code Review
-      + Health Check Set Up
-      + Logging Implementation
-      + Microservice Arch Documentation
-      + File Type Checking
-    + Finished Previous Week
-      + Code Review
-      + Health Check Set Up
-      + Logging Implementation
-      + Microservice Arch Documentation
-      + File Type Checking
-    + Todo Next Week
-      + Mongo Implementation
-      + File Storage Google
-      + Code Review
-    
-  + Robert Herley
-    + Assigned Previous Week
-      + Mock Up Designs
-      + K8S Front End Setup
-      + K8S Mongo End Setup
-      + Stdout MS Format
-    + Finished Previous Week
-      + Mock Up Designs
-      + K8S Front End Setup
-      + K8S Mongo End Setup
-      + Stdout MS Format
-    + Todo Next Week
-      + React Components
-      + Code Review
-      + Database User Schema design
+    + Taylor He
+      + Assigned Previous Week
+        + Code Review
+        + Health Check Set Up
+        + Logging Implementation
+        + Microservice Arch Documentation
+        + File Type Checking
+      + Finished Previous Week
+        + Code Review
+        + Health Check Set Up
+        + Logging Implementation
+        + Microservice Arch Documentation
+        + File Type Checking
+      + Todo Next Week
+        + Mongo Implementation
+        + File Storage Google
+        + Code Review
 
-  + Jonathan Pavlik
-    + Assigned Previous Week
-      + Code Review
-      + CI Integration
-      + Test Cases
-      + Health Check Set Up
-      + File Type Checking
-      + Stdout MS Formating
-    + Finished Previous Week
-      + Code Review
-      + CI Integration
-      + Test Cases
-      + Health Check Set Up
-      + File Type Checking
-      + Stdout MS Formating
-    + Todo Next Week
-      + Database User Schema Design
-      + Code REview
-      + Authentication Routes
+    + Robert Herley
+      + Assigned Previous Week
+        + Mock Up Designs
+        + K8S Front End Setup
+        + K8S Mongo End Setup
+        + Stdout MS Format
+      + Finished Previous Week
+        + Mock Up Designs
+        + K8S Front End Setup
+        + K8S Mongo End Setup
+        + Stdout MS Format
+      + Todo Next Week
+        + React Components
+        + Code Review
+        + Database User Schema design
 
-  + Alex Supkay
-    + Assigned Previous Week
-      + K8S Front End Setup
-      + K8S Mongo End Setup
-      + Communicate with Google(more credits)
-    + Finished Previous Week
-      + K8S Front End Setup
-      + K8S Mongo End Setup
-      + Communicate with Google(more credits)
-    + Todo Next Week
-      + K8's Deployment Backend
-      + Code Review
-      + Obtain Cloud Credits
+    + Jonathan Pavlik
+      + Assigned Previous Week
+        + Code Review
+        + CI Integration
+        + Test Cases
+        + Health Check Set Up
+        + File Type Checking
+        + Stdout MS Formating
+      + Finished Previous Week
+        + Code Review
+        + CI Integration
+        + Test Cases
+        + Health Check Set Up
+        + File Type Checking
+        + Stdout MS Formating
+      + Todo Next Week
+        + Database User Schema Design
+        + Code REview
+        + Authentication Routes
+
+    + Alex Supkay
+      + Assigned Previous Week
+        + K8S Front End Setup
+        + K8S Mongo End Setup
+        + Communicate with Google(more credits)
+      + Finished Previous Week
+        + K8S Front End Setup
+        + K8S Mongo End Setup
+        + Communicate with Google(more credits)
+      + Todo Next Week
+        + K8's Deployment Backend
+        + Code Review
+        + Obtain Cloud Credits
 
 *** <2018-10-04 Thu>--<2018-10-11 Thu>
-  + Andrew Chen
-    + Assigned Previous Week
-      + React Components
-      + Code Review
-    + Finished Previous Week
-      + Documentation
-    + Todo Next Week
-      + React Components
-      + Code Review
+    + Andrew Chen
+      + Assigned Previous Week
+        + React Components
+        + Code Review
+      + Finished Previous Week
+        + Documentation
+      + Todo Next Week
+        + React Components
+        + Code Review
 
-  + Taylor He
-    + Assigned Previous Week
-      + Mongo Implementation
-      + File Storage Google
-      + Code Review
-    + Finished Previous Week
-      + Documentation
-    + Todo Next Week
-      + Mongo Implementation
-      + File Storage Google
-      + Code Review
-    
-  + Robert Herley
-    + Assigned Previous Week
-      + React Components
-      + Code Review
-      + Database User Schema design
-    + Finished Previous Week
-      + Documentation
-    + Todo Next Week
-      + React Components
-      + Code Review
-      + Database User Schema design
+    + Taylor He
+      + Assigned Previous Week
+        + Mongo Implementation
+        + File Storage Google
+        + Code Review
+      + Finished Previous Week
+        + Documentation
+      + Todo Next Week
+        + Mongo Implementation
+        + File Storage Google
+        + Code Review
 
-  + Jonathan Pavlik
-    + Assigned Previous Week
-      + Database User Schema Design
-      + Code Review
-      + Authentication Routes
-    + Finished Previous Week
-      + Documentation
-    + Todo Next Week
-      + Database User Schema Design
-      + Code Review
-      + Authentication Routes
+    + Robert Herley
+      + Assigned Previous Week
+        + React Components
+        + Code Review
+        + Database User Schema design
+      + Finished Previous Week
+        + Documentation
+      + Todo Next Week
+        + React Components
+        + Code Review
+        + Database User Schema design
 
-  + Alex Supkay
-    + Assigned Previous Week
-      + K8's Deployment Backend
-      + Code Review
-      + Obtain Cloud Credits
-    + Finished Previous Week
-      + Documentation
-    + Todo Next Week
-      + K8's Deployment Backend
-      + Code Review
-      + Obtain Cloud Credits
-*** <2018-10-04 Thu>--<2018-10-11 Thu>
-  + Andrew Chen
-    + Assigned Previous Week
-      + Simple React Components
-      + Code Review
-    + Finished Previous Week
-      + Simple React Components
-      + Code Review
-    + Todo Next Week
-      + React Components for MVP(login/submission).
-      + Code Review
+    + Jonathan Pavlik
+      + Assigned Previous Week
+        + Database User Schema Design
+        + Code Review
+        + Authentication Routes
+      + Finished Previous Week
+        + Documentation
+      + Todo Next Week
+        + Database User Schema Design
+        + Code Review
+        + Authentication Routes
 
-  + Taylor He
-    + Assigned Previous Week
-      + Mongo Implementation
-      + File Storage Google
-      + Code Review
-    + Finished Previous Week
-      + Mogno Implementation
-      + Code Review
-    + Todo Next Week
-      + File Storage Google
-      + Email Validation
-      + Test Mongo health checks
-    
-  + Robert Herley
-    + Assigned Previous Week
-      + Simple React Components
-      + Code Review
-      + Database User Schema Design
-    + Finished Previous Week
-      + Simple React Components
-      + Code Review
-      + Database User Schema Design
-      + Color palette
-      + Logo
-    + Todo Next Week
-      + React Components for MVP(login/submission).
-      + Disccusion of microservice for court herald.
-      + Code Review
-      + K8s CI
-      + K8s env variables
+    + Alex Supkay
+      + Assigned Previous Week
+        + K8's Deployment Backend
+        + Code Review
+        + Obtain Cloud Credits
+      + Finished Previous Week
+        + Documentation
+      + Todo Next Week
+        + K8's Deployment Backend
+        + Code Review
+        + Obtain Cloud Credits
+*** <2018-10-18 Thu>--<2018-10-25 Thu>
+    + Andrew Chen
+      + Assigned Previous Week
+        + Simple React Components
+        + Code Review
+      + Finished Previous Week
+        + Simple React Components
+        + Code Review
+      + Todo Next Week
+        + React Components for MVP(login/submission).
+        + Code Review
 
-  + Jonathan Pavlik
-    + Assigned Previous Week
-      + Database User Schema Design
-      + Code Review
-      + Authentication Routes
-    + Finished Previous Week
-      + Database User Schema Design
-      + Code Review
-      + Authentication Routes
-    + Todo Next Week
-      + Discuss Court Herald Service.
-      + Test Auth Routes.
-      + Add routes for main microservice to talk to court herald service.
+    + Taylor He
+      + Assigned Previous Week
+        + Mongo Implementation
+        + File Storage Google
+        + Code Review
+      + Finished Previous Week
+        + Mogno Implementation
+        + Code Review
+      + Todo Next Week
+        + File Storage Google
+        + Email Validation
+        + Test Mongo health checks
 
-  + Alex Supkay
-    + Assigned Previous Week
-      + K8's Deployment Backend
-      + Code Review
-      + Obtain Cloud Credits
-    + Finished Previous Week
-      + Code Review
-      + Obtain Cloud Credits
-    + Todo Next Week
-      + Obtain Cloud Credits
-      + Venture Center Talk Stuff
-      + Env variables
-      + K8's Deployment Backend
+    + Robert Herley
+      + Assigned Previous Week
+        + Simple React Components
+        + Code Review
+        + Database User Schema Design
+      + Finished Previous Week
+        + Simple React Components
+        + Code Review
+        + Database User Schema Design
+        + Color palette
+        + Logo
+      + Todo Next Week
+        + React Components for MVP(login/submission).
+        + Disccusion of microservice for court herald.
+        + Code Review
+        + K8s CI
+        + K8s env variables
+
+    + Jonathan Pavlik
+      + Assigned Previous Week
+        + Database User Schema Design
+        + Code Review
+        + Authentication Routes
+      + Finished Previous Week
+        + Database User Schema Design
+        + Code Review
+        + Authentication Routes
+      + Todo Next Week
+        + Discuss Court Herald Service.
+        + Test Auth Routes.
+        + Add routes for main microservice to talk to court herald service.
+
+    + Alex Supkay
+      + Assigned Previous Week
+        + K8's Deployment Backend
+        + Code Review
+        + Obtain Cloud Credits
+      + Finished Previous Week
+        + Code Review
+        + Obtain Cloud Credits
+      + Todo Next Week
+        + Obtain Cloud Credits
+        + Venture Center Talk Stuff
+        + Env variables
+        + K8's Deployment Backend
+*** <2018-10-25 Thu>--<2018-11-01 Thu>
+    + Andrew Chen
+      + Assigned Previous Week
+        + React Components for MVP(login/submission) parts done.
+        + Code Review
+      + Finished Previous Week
+        + React Components for MVP(login/submission) parts done.
+        + Code Review
+      + Todo Next Week
+        + React Components for MVP(login/submission) continued.
+        + Code Review
+
+    + Taylor He
+      + Assigned Previous Week
+        + File Storage Google
+        + Email Validation
+        + Test Mongo health checks
+      + Finished Previous Week
+        + File Storage Google
+        + Email Validation
+        + Test Mongo health checks
+      + Todo Next Week
+        + Convert .zip's to .tar.gz
+        + Student submission end point.
+        + GCS health checks.
+
+    + Robert Herley
+      + Assigned Previous Week
+        + React Components for MVP(login/submission).
+        + Disccusion of microservice for court herald.
+        + Code Review
+        + K8s CI
+        + K8s env variables
+      + Finished Previous Week
+        + React Components for MVP(login/submission).
+        + Disccusion of microservice for court herald.
+        + Code Review
+        + K8s CI
+        + K8s env variables
+      + Todo Next Week
+        + Ingress controller.
+        + React Component Library.
+        + Domain Certs.
+
+    + Jonathan Pavlik
+      + Assigned Previous Week
+        + Discuss Court Herald Service.
+        + Test Auth Routes.
+        + Discuss routes for main microservice to talk to court herald service.
+      + Finished Previous Week
+        + Discuss Court Herald Service.
+        + Discuss routes for main microservice to talk to court herald service.
+      + Todo Next Week
+        + Test Auth Routes - not done last week due to not full database
+          schema implemented.
+        + Create assignment endpoint.
+        + Implement full schema models.
+        + GCS health checks.
+
+    + Alex Supkay
+      + Assigned Previous Week
+        + Obtain Cloud Credits
+        + Venture Center Talk Stuff
+        + Env variables
+        + K8's Deployment Backend
+      + Finished Previous Week
+        + Obtain Cloud Credits
+        + Venture Center Talk Stuff
+        + Env variables
+        + K8's Deployment Backend
+      + Todo Next Week
+        + Venture Center Talk Stuff continued. 
 * Components
   This section will be expanded as we work through several stages of
   MVPs.
@@ -344,6 +416,77 @@
 *** Logging
 **** For Admin purposes we need proper log outputs that are easy to read.
 **** Also needs to integrate into any service.
+** Database Schema
+*** Mongo Collection Types
+**** Users
+**** Courses
+**** Assignments
+**** Submissions
+*** Users Collection
+    #+BEGIN_SRC json
+      {
+        "_id": ObjectId,
+        "email": String,
+        "firstName": String,
+        "lastName": String,
+        "password": String,
+        "enrolledCourses": [
+          {
+            "courseID": Courses._id,
+            "enrollmentType": String
+          }
+        ]
+      }
+    #+END_SRC
+*** Courses Collection
+    #+BEGIN_SRC json
+  {
+    "_id": ObjectId,
+    "department": String,
+    "number": Number,
+    "section": String,
+    "professors": [Users._id],
+    "assistants": [Users._id],
+    "students": [Users._id],
+    "assignments": [Assignments._id]
+  }
+    #+END_SRC
+*** Assignments Collection
+    #+BEGIN_SRC json
+  {
+    "_id": ObjectId,
+    "name": String,
+    "description": String,
+    "supportingFiles": String,
+    "dueDate": ISODate,
+    "published": Boolean,
+    "testScripts": {
+      "studentFacing": String,
+      "adminFacing": String
+    },
+    "submissions": [Submissions._id]
+  }
+    #+END_SRC
+*** Submissions Collection
+    #+BEGIN_SRC json
+      {
+        "_id": ObjectID,
+        "userId": Users._id,
+        "submissionDate": ISODate,
+        "file": String,
+        "errorTesting": Boolean,
+        "cases": {
+          "studentFacing": {
+            "pass": Number,
+            "fail": Number
+          },
+          "adminFacing": {
+            "pass": Number,
+            "fail": Number
+          }
+        }
+      };
+    #+END_SRC
 ** Frontend: The interactive elements of our application
 *** A simple form page Mock up.
 **** Must have submission upload.
@@ -365,191 +508,190 @@
     
     #+BEGIN_center
 
-    #+LATEX: \newpage
-    #+LATEX: \begin{landscape}
+#+LATEX: \newpage
+#+LATEX: \begin{landscape}
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Clicks on "New Class" button on Dashboard
-    #+NAME:   fig:MVP-1-Prof-New-Class-Button-Before
-    [[./mockups/first_iter/annotations/professor/new_class_button_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Clicks on "New Class" button on Dashboard
+#+NAME:   fig:MVP-1-Prof-New-Class-Button-Before
+[[./mockups/first_iter/annotations/professor/new_class_button_BEFORE.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Clicks on "New Class" button on Dashboard
-    #+NAME:   fig:MVP-1-Prof-New-Class-Button-During
-    [[./mockups/first_iter/annotations/professor/new_class_button_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Clicks on "New Class" button on Dashboard
+#+NAME:   fig:MVP-1-Prof-New-Class-Button-During
+[[./mockups/first_iter/annotations/professor/new_class_button_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Clicks on "New Class" button on Dashboard
-    #+NAME:   fig:MVP-1-Prof-New-Class-Button-After
-    [[./mockups/first_iter/annotations/professor/new_class_button_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Clicks on "New Class" button on Dashboard
+#+NAME:   fig:MVP-1-Prof-New-Class-Button-After
+[[./mockups/first_iter/annotations/professor/new_class_button_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Creates New Class
-    #+NAME:   fig:MVP-1-Prof-Create-New-Class-Before
-    [[./mockups/first_iter/annotations/professor/create_new_class_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Creates New Class
+#+NAME:   fig:MVP-1-Prof-Create-New-Class-Before
+[[./mockups/first_iter/annotations/professor/create_new_class_BEFORE.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Creates New Class
-    #+NAME:   fig:MVP-1-Prof-Create-New-Class-During
-    [[./mockups/first_iter/annotations/professor/create_new_class_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Creates New Class
+#+NAME:   fig:MVP-1-Prof-Create-New-Class-During
+[[./mockups/first_iter/annotations/professor/create_new_class_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Creates New Class
-    #+NAME:   fig:MVP-1-Prof-Create-New-Class-After
-    [[./mockups/first_iter/annotations/professor/create_new_class_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Creates New Class
+#+NAME:   fig:MVP-1-Prof-Create-New-Class-After
+[[./mockups/first_iter/annotations/professor/create_new_class_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Clicks on a Class Card to go a Class Page
-    #+NAME:   fig:MVP-1-Prof-Go-To-Class-Before
-    [[./mockups/first_iter/annotations/professor/go_to_class_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Clicks on a Class Card to go a Class Page
+#+NAME:   fig:MVP-1-Prof-Go-To-Class-Before
+[[./mockups/first_iter/annotations/professor/go_to_class_BEFORE.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Clicks on a Class Card to go a Class Page
-    #+NAME:   fig:MVP-1-Prof-Go-To-Class-During
-    [[./mockups/first_iter/annotations/professor/go_to_class_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Clicks on a Class Card to go a Class Page
+#+NAME:   fig:MVP-1-Prof-Go-To-Class-During
+[[./mockups/first_iter/annotations/professor/go_to_class_DURING.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Clicks on a Class Card to go a Class Page
-    #+NAME:   fig:MVP-1-Prof-Go-To-Class-After
-    [[./mockups/first_iter/annotations/professor/go_to_class_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Clicks on a Class Card to go a Class Page
+#+NAME:   fig:MVP-1-Prof-Go-To-Class-After
+[[./mockups/first_iter/annotations/professor/go_to_class_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Clicks on "New Assignment" button on Class Page
-    #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-Before
-    [[./mockups/first_iter/annotations/professor/create_assignment_button_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Clicks on "New Assignment" button on Class Page
+#+NAME:   fig:MVP-1-Prof-New-Assignment-Button-Before
+[[./mockups/first_iter/annotations/professor/create_assignment_button_BEFORE.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Clicks on "New Assignment" button on Class Page
-    #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-During
-    [[./mockups/first_iter/annotations/professor/create_assignment_button_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Clicks on "New Assignment" button on Class Page
+#+NAME:   fig:MVP-1-Prof-New-Assignment-Button-During
+[[./mockups/first_iter/annotations/professor/create_assignment_button_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Clicks on "New Assignment" button on Class Page
-    #+NAME:   fig:MVP-1-Prof-New-Assignment-Button-After
-    [[./mockups/first_iter/annotations/professor/create_assignment_button_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Clicks on "New Assignment" button on Class Page
+#+NAME:   fig:MVP-1-Prof-New-Assignment-Button-After
+[[./mockups/first_iter/annotations/professor/create_assignment_button_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Creates a new Assignment
-    #+NAME:   fig:MVP-1-Prof-New-Assignment-Before
-    [[./mockups/first_iter/annotations/professor/create_assignment_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Creates a new Assignment
+#+NAME:   fig:MVP-1-Prof-New-Assignment-Before
+[[./mockups/first_iter/annotations/professor/create_assignment_BEFORE.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Creates a new Assignment
-    #+NAME:   fig:MVP-1-Prof-New-Assignment-During
-    [[./mockups/first_iter/annotations/professor/create_assignment_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Creates a new Assignment
+#+NAME:   fig:MVP-1-Prof-New-Assignment-During
+[[./mockups/first_iter/annotations/professor/create_assignment_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Creates a new Assignment
-    #+NAME:   fig:MVP-1-Prof-New-Assignment-After
-    [[./mockups/first_iter/annotations/professor/create_assignment_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Creates a new Assignment
+#+NAME:   fig:MVP-1-Prof-New-Assignment-After
+[[./mockups/first_iter/annotations/professor/create_assignment_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Starts Grader 
-    #+name:   fig:mvp-1-prof-new-assignment-before
-    [[./mockups/first_iter/annotations/professor/start_grader_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Starts Grader 
+#+name:   fig:mvp-1-prof-new-assignment-before
+[[./mockups/first_iter/annotations/professor/start_grader_BEFORE.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Starts Grader
-    #+name:   fig:mvp-1-prof-new-assignment-during
-    [[./mockups/first_iter/annotations/professor/start_grader_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Starts Grader
+#+name:   fig:mvp-1-prof-new-assignment-during
+[[./mockups/first_iter/annotations/professor/start_grader_DURING.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Starts Grader
-    #+name:   fig:mvp-1-prof-new-assignment-after
-    [[./mockups/first_iter/annotations/professor/start_grader_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Starts Grader
+#+name:   fig:mvp-1-prof-new-assignment-after
+[[./mockups/first_iter/annotations/professor/start_grader_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Goes to Grader
-    #+name:   fig:mvp-1-prof-new-assignment-before
-    [[./mockups/first_iter/annotations/professor/go_to_grader_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Goes to Grader
+#+name:   fig:mvp-1-prof-new-assignment-before
+[[./mockups/first_iter/annotations/professor/go_to_grader_BEFORE.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Goes to Grader 
-    #+name:   fig:mvp-1-prof-new-assignment-during
-    [[./mockups/first_iter/annotations/professor/go_to_grader_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Goes to Grader 
+#+name:   fig:mvp-1-prof-new-assignment-during
+[[./mockups/first_iter/annotations/professor/go_to_grader_DURING.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Goes to Grader 
-    #+name:   fig:mvp-1-prof-new-assignment-after
-    [[./mockups/first_iter/annotations/professor/go_to_grader_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Goes to Grader 
+#+name:   fig:mvp-1-prof-new-assignment-after
+[[./mockups/first_iter/annotations/professor/go_to_grader_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Professor Goes to Dashboard from any menu
-    #+name:   fig:mvp-1-prof-new-assignment-before
-    [[./mockups/first_iter/annotations/professor/go_to_dash_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Professor Goes to Dashboard from any menu
+#+name:   fig:mvp-1-prof-new-assignment-before
+[[./mockups/first_iter/annotations/professor/go_to_dash_BEFORE.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Professor Goes to Dashboard from any menu
-    #+name:   fig:mvp-1-prof-new-assignment-during
-    [[./mockups/first_iter/annotations/professor/go_to_dash_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Professor Goes to Dashboard from any menu
+#+name:   fig:mvp-1-prof-new-assignment-during
+[[./mockups/first_iter/annotations/professor/go_to_dash_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Professor Goes to Dashboard from any menu
-    #+name:   fig:mvp-1-prof-new-assignment-after
-    [[./mockups/first_iter/annotations/professor/go_to_dash_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Professor Goes to Dashboard from any menu
+#+name:   fig:mvp-1-prof-new-assignment-after
+[[./mockups/first_iter/annotations/professor/go_to_dash_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Student Goes To Class Page
-    #+name:   fig:mvp-1-prof-new-assignment-before
-    [[./mockups/first_iter/annotations/student/go_to_class_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Student Goes To Class Page
+#+name:   fig:mvp-1-prof-new-assignment-before
+[[./mockups/first_iter/annotations/student/go_to_class_BEFORE.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Student Goes to Class Page
-    #+name:   fig:mvp-1-prof-new-assignment-during
-    [[./mockups/first_iter/annotations/student/go_to_class_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Student Goes to Class Page
+#+name:   fig:mvp-1-prof-new-assignment-during
+[[./mockups/first_iter/annotations/student/go_to_class_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After a Student Selects a Course
-    #+name:   fig:mvp-1-prof-new-assignment-after
-    [[./mockups/first_iter/annotations/student/go_to_class_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After a Student Selects a Course
+#+name:   fig:mvp-1-prof-new-assignment-after
+[[./mockups/first_iter/annotations/student/go_to_class_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Student Goes to an Assignment Page
-    #+name:   fig:mvp-1-prof-new-assignment-before
-    [[./mockups/first_iter/annotations/student/go_to_assignment_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Student Goes to an Assignment Page
+#+name:   fig:mvp-1-prof-new-assignment-before
+[[./mockups/first_iter/annotations/student/go_to_assignment_BEFORE.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Student Goes to an Assignment Page
-    #+name:   fig:mvp-1-prof-new-assignment-during
-    [[./mockups/first_iter/annotations/student/go_to_assignment_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Student Goes to an Assignment Page
+#+name:   fig:mvp-1-prof-new-assignment-during
+[[./mockups/first_iter/annotations/student/go_to_assignment_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Student Goes to an Assignment Page
-    #+name:   fig:mvp-1-prof-new-assignment-after
-    [[./mockups/first_iter/annotations/student/go_to_assignment_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Student Goes to an Assignment Page
+#+name:   fig:mvp-1-prof-new-assignment-after
+[[./mockups/first_iter/annotations/student/go_to_assignment_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Student Clicks on Submit Button on Assignment Page
-    #+name:   fig:mvp-1-prof-new-assignment-before
-    [[./mockups/first_iter/annotations/student/submit_assignment_button_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Student Clicks on Submit Button on Assignment Page
+#+name:   fig:mvp-1-prof-new-assignment-before
+[[./mockups/first_iter/annotations/student/submit_assignment_button_BEFORE.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Student Clicks on Submit Button on Assignment Page
-    #+name:   fig:mvp-1-prof-new-assignment-during
-    [[./mockups/first_iter/annotations/student/submit_assignment_button_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Student Clicks on Submit Button on Assignment Page
+#+name:   fig:mvp-1-prof-new-assignment-during
+[[./mockups/first_iter/annotations/student/submit_assignment_button_DURING.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Student Clicks on Submit Button on Assignment Page
-    #+name:   fig:mvp-1-prof-new-assignment-after
-    [[./mockups/first_iter/annotations/student/submit_assignment_button_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Student Clicks on Submit Button on Assignment Page
+#+name:   fig:mvp-1-prof-new-assignment-after
+[[./mockups/first_iter/annotations/student/submit_assignment_button_AFTER.png]]
 
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: Before Student Submits Assignment
-    #+name:   fig:mvp-1-prof-new-assignment-before
-    [[./mockups/first_iter/annotations/student/submit_assignment_BEFORE.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: Before Student Submits Assignment
+#+name:   fig:mvp-1-prof-new-assignment-before
+[[./mockups/first_iter/annotations/student/submit_assignment_BEFORE.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: During Student Submits Assignment
-    #+name:   fig:mvp-1-prof-new-assignment-during
-    [[./mockups/first_iter/annotations/student/submit_assignment_DURING.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: During Student Submits Assignment
+#+name:   fig:mvp-1-prof-new-assignment-during
+[[./mockups/first_iter/annotations/student/submit_assignment_DURING.png]]
     
-    #+ATTR_LATEX: :width 15cm :placement [h!] 
-    #+CAPTION: After Student Submits Assignment
-    #+name:   fig:mvp-1-prof-new-assignment-after
-    [[./mockups/first_iter/annotations/student/submit_assignment_AFTER.png]]
+#+ATTR_LATEX: :width 15cm :placement [ht!] 
+#+CAPTION: After Student Submits Assignment
+#+name:   fig:mvp-1-prof-new-assignment-after
+[[./mockups/first_iter/annotations/student/submit_assignment_AFTER.png]]
 
-    \FloatBarrier
-    #+LATEX: \end{landscape}
+#+LATEX: \end{landscape}
 
     #+END_center
     
@@ -593,20 +735,21 @@
       programming language can easily be added, we accept many file
       types and we are fully scalable. Hopefully we can give users a
       terminal interface through our web page as well.
-  #+ATTR_LATEX: :width 15cm :placement [h!] 
+  #+ATTR_LATEX: :width 15cm :placement [ht!] 
   #+CAPTION: Timeline
   #+NAME: fig:Timeline
   [[./timeline.jpg]]
-
-  \FloatBarrier
 
   #+LATEX: \newpage
   #+LATEX: \begin{landscape}
 * Dependency Diagram
   Below is our dependency diagram.
-  #+ATTR_LATEX: :width 15cm :placement [h!]
+  #+ATTR_LATEX: :width 15cm :placement [ht!]
   #+CAPTION: Dependecy Diagram
   #+NAME: fig:Dependency-Diagram
-  [[./dep_diagram/graph.png]]
-  \FloatBarrier
+  [[./dep_diagram/graph.png]] \FloatBarrier
   #+LATEX: \end{landscape}
+* Venture Center
+  This week we have reached out to the venture center and are waiting
+  further word from them. This is to discuss the oppurtunity of this
+  software being a startup.
