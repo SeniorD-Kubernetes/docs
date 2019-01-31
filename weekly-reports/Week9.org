@@ -1,0 +1,46 @@
+#+TITLE: Weekly Report 9
+#+AUTHOR: Brian Borowski
+
+* Tyr: Report
+** Previous Week(8):
+*** Front End
+**** Start designing parts of MVP.
+***** Upload Page wip
+***** Test Results Page wip
+*** Back End
+**** API Documentation
+**** Authentication
+***** Tests
+***** Jwt Authorization
+***** Forgot Password route.
+***** Error Handler Clean Up
+***** Language Verification Discussion(Do we need it?)
+*** Op Sec
+**** Talk to venture center.
+**** Google Cloud Storage this week
+*** Kubernetes
+**** Talk with Backend about spinning up jobs through k8s api.
+
+** Current Week(9):
+*** Front End
+**** Start designing parts of MVP.
+***** Upload Page wip
+***** Test Results Page wip
+***** Dashboard page wip
+*** Back End
+**** API Documentation
+**** Authentication
+***** Tests
+***** Jwt Authorization
+***** Error Handler Clean Up
+***** Language Verification Discussion(Do we need it?)
+****** No
+*** Op Sec
+**** Work on business docs for venture center.
+*** Kubernetes
+**** Start using k8s api to spin up job.
+
+* Overall Status: Semi-On schedule
+  The team has a login page, progress on back end, and is starting a
+  dashboard page. I would like to see a bit more ui work but they are
+  doing good now.

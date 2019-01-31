@@ -1,0 +1,45 @@
+#+TITLE: Weekly Report 10
+#+AUTHOR: Brian Borowski
+
+* Tyr: Report
+** Previous Week(9):
+*** Front End
+**** Start designing parts of MVP.
+***** Upload Page wip
+***** Test Results Page wip
+***** Dashboard page wip
+*** Back End
+**** API Documentation
+**** Authentication
+***** Tests
+***** Jwt Authorization
+***** Error Handler Clean Up
+***** Language Verification Discussion(Do we need it?)
+****** No
+*** Op Sec
+**** Work on business docs for venture center.
+*** Kubernetes
+**** Start using k8s api to spin up job.
+
+** Current Week(10):
+*** Front End
+**** Designing parts of MVP.
+***** Upload Page wip
+***** Test Results Page wip
+***** Dashboard page wip
+*** Back End
+**** API Documentation
+**** CMS
+***** Create Course Endpoint
+***** GridFS pivot from google cloud storage
+**** K8S API
+***** Microservice to get this working this week.
+*** Op Sec
+**** Work on business docs for venture center.
+*** Kubernetes
+**** Start using k8s api to spin up job.
+
+* Overall Status: Semi-On schedule
+  Team is making project on ui and backend. They are starting work on
+  getting a simple version of the core application. With this they
+  should be able to show a demo sometime next week.

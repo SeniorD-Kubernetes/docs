@@ -3,6 +3,7 @@
 #+latex_header: \hypersetup{colorlinks=true}
 #+LATEX_HEADER: \usepackage{placeins}
 #+LATEX_HEADER: \usepackage{pdflscape}
+#+LATEX_HEADER: \usepackage{minted}
 #+BIND: org-latex-image-default-width "8cm"
 #+MACRO: NEWLINE @@latenx:\\@@
 
@@ -114,291 +115,67 @@
        + ebonelli@stevens.edu
 * Delegation of Tasks/Completion Schedule
   We are using an agile development system as it allows us to work
-  more concurrently on project flow.  To do this we use a Trello Board
+  more concurrently on project flow. To do this we use a Trello Board
   with Esprint planning. Which you can find
   https://trello.com/b/U5NIyhQs/senior-design.
   
 ** Tasks Completed by week.
-*** <2018-09-27 Thu>--<2018-10-04 Thu>
+*** <2018-11-29 Thu>-
     + Andrew Chen
       + Assigned Previous Week
-        + Mock Up Designs
-        + Stdout MS Format
-      + Finished Previous Week
-        + Mock Up Designs
-        + Stdout MS Format
-      + Todo Next Week
-        + React Components
+        + React Components for response and viewing grades.
         + Code Review
+      + Finished Previous Week
+        + React Components for response and viewing grades.
+        + Code Review
+        + Mock Data
+        + Dashboard View
+      + Todo Next Week
+        + winter break + finals
 
     + Taylor He
       + Assigned Previous Week
-        + Code Review
-        + Health Check Set Up
-        + Logging Implementation
-        + Microservice Arch Documentation
-        + File Type Checking
+        + GridFS impl
+        + code review
       + Finished Previous Week
-        + Code Review
-        + Health Check Set Up
-        + Logging Implementation
-        + Microservice Arch Documentation
-        + File Type Checking
+        + GridFS impl
+        + code review
       + Todo Next Week
-        + Mongo Implementation
-        + File Storage Google
-        + Code Review
+        + winter break + finals
 
     + Robert Herley
       + Assigned Previous Week
-        + Mock Up Designs
-        + K8S Front End Setup
-        + K8S Mongo End Setup
-        + Stdout MS Format
+        + Submission review components
+        + k8s jobs
+        + react grade submission components
       + Finished Previous Week
-        + Mock Up Designs
-        + K8S Front End Setup
-        + K8S Mongo End Setup
-        + Stdout MS Format
+        + Submission review components
+        + k8s jobs
+        + react grade submission components
+        + court herald spin up jobs routes
+        + Course homepage view
       + Todo Next Week
-        + React Components
-        + Code Review
-        + Database User Schema design
+        + winter break + finals
 
     + Jonathan Pavlik
       + Assigned Previous Week
-        + Code Review
-        + CI Integration
-        + Test Cases
-        + Health Check Set Up
-        + File Type Checking
-        + Stdout MS Formating
+        + Mongo Queries improved
+        + API Docs updates and refactors(more)
+        + k8s api used to create jobs
       + Finished Previous Week
-        + Code Review
-        + CI Integration
-        + Test Cases
-        + Health Check Set Up
-        + File Type Checking
-        + Stdout MS Formating
-      + Todo Next Week
-        + Database User Schema Design
-        + Code REview
-        + Authentication Routes
+        + API Docs updates and refactors(more)
+        + k8s api used to create jobs
+        + Better Mongo Queries(more)
+      + Todo Next Week.
+        + winter break + finals
 
     + Alex Supkay
       + Assigned Previous Week
-        + K8S Front End Setup
-        + K8S Mongo End Setup
-        + Communicate with Google(more credits)
+        + Venture Center Talk documentation
       + Finished Previous Week
-        + K8S Front End Setup
-        + K8S Mongo End Setup
-        + Communicate with Google(more credits)
+        + Venture Center Talk documentation continued
       + Todo Next Week
-        + K8's Deployment Backend
-        + Code Review
-        + Obtain Cloud Credits
-
-*** <2018-10-04 Thu>--<2018-10-11 Thu>
-    + Andrew Chen
-      + Assigned Previous Week
-        + React Components
-        + Code Review
-      + Finished Previous Week
-        + Documentation
-      + Todo Next Week
-        + React Components
-        + Code Review
-
-    + Taylor He
-      + Assigned Previous Week
-        + Mongo Implementation
-        + File Storage Google
-        + Code Review
-      + Finished Previous Week
-        + Documentation
-      + Todo Next Week
-        + Mongo Implementation
-        + File Storage Google
-        + Code Review
-
-    + Robert Herley
-      + Assigned Previous Week
-        + React Components
-        + Code Review
-        + Database User Schema design
-      + Finished Previous Week
-        + Documentation
-      + Todo Next Week
-        + React Components
-        + Code Review
-        + Database User Schema design
-
-    + Jonathan Pavlik
-      + Assigned Previous Week
-        + Database User Schema Design
-        + Code Review
-        + Authentication Routes
-      + Finished Previous Week
-        + Documentation
-      + Todo Next Week
-        + Database User Schema Design
-        + Code Review
-        + Authentication Routes
-
-    + Alex Supkay
-      + Assigned Previous Week
-        + K8's Deployment Backend
-        + Code Review
-        + Obtain Cloud Credits
-      + Finished Previous Week
-        + Documentation
-      + Todo Next Week
-        + K8's Deployment Backend
-        + Code Review
-        + Obtain Cloud Credits
-*** <2018-10-18 Thu>--<2018-10-25 Thu>
-    + Andrew Chen
-      + Assigned Previous Week
-        + Simple React Components
-        + Code Review
-      + Finished Previous Week
-        + Simple React Components
-        + Code Review
-      + Todo Next Week
-        + React Components for MVP(login/submission).
-        + Code Review
-
-    + Taylor He
-      + Assigned Previous Week
-        + Mongo Implementation
-        + File Storage Google
-        + Code Review
-      + Finished Previous Week
-        + Mogno Implementation
-        + Code Review
-      + Todo Next Week
-        + File Storage Google
-        + Email Validation
-        + Test Mongo health checks
-
-    + Robert Herley
-      + Assigned Previous Week
-        + Simple React Components
-        + Code Review
-        + Database User Schema Design
-      + Finished Previous Week
-        + Simple React Components
-        + Code Review
-        + Database User Schema Design
-        + Color palette
-        + Logo
-      + Todo Next Week
-        + React Components for MVP(login/submission).
-        + Disccusion of microservice for court herald.
-        + Code Review
-        + K8s CI
-        + K8s env variables
-
-    + Jonathan Pavlik
-      + Assigned Previous Week
-        + Database User Schema Design
-        + Code Review
-        + Authentication Routes
-      + Finished Previous Week
-        + Database User Schema Design
-        + Code Review
-        + Authentication Routes
-      + Todo Next Week
-        + Discuss Court Herald Service.
-        + Test Auth Routes.
-        + Add routes for main microservice to talk to court herald service.
-
-    + Alex Supkay
-      + Assigned Previous Week
-        + K8's Deployment Backend
-        + Code Review
-        + Obtain Cloud Credits
-      + Finished Previous Week
-        + Code Review
-        + Obtain Cloud Credits
-      + Todo Next Week
-        + Obtain Cloud Credits
-        + Venture Center Talk Stuff
-        + Env variables
-        + K8's Deployment Backend
-*** <2018-10-25 Thu>--<2018-11-01 Thu>
-    + Andrew Chen
-      + Assigned Previous Week
-        + React Components for MVP(login/submission) parts done.
-        + Code Review
-      + Finished Previous Week
-        + React Components for MVP(login/submission) parts done.
-        + Code Review
-      + Todo Next Week
-        + React Components for MVP(login/submission) continued.
-        + Code Review
-
-    + Taylor He
-      + Assigned Previous Week
-        + File Storage Google
-        + Email Validation
-        + Test Mongo health checks
-      + Finished Previous Week
-        + File Storage Google
-        + Email Validation
-        + Test Mongo health checks
-      + Todo Next Week
-        + Convert .zip's to .tar.gz
-        + Student submission end point.
-        + GCS health checks.
-
-    + Robert Herley
-      + Assigned Previous Week
-        + React Components for MVP(login/submission).
-        + Disccusion of microservice for court herald.
-        + Code Review
-        + K8s CI
-        + K8s env variables
-      + Finished Previous Week
-        + React Components for MVP(login/submission).
-        + Disccusion of microservice for court herald.
-        + Code Review
-        + K8s CI
-        + K8s env variables
-      + Todo Next Week
-        + Ingress controller.
-        + React Component Library.
-        + Domain Certs.
-
-    + Jonathan Pavlik
-      + Assigned Previous Week
-        + Discuss Court Herald Service.
-        + Test Auth Routes.
-        + Discuss routes for main microservice to talk to court herald service.
-      + Finished Previous Week
-        + Discuss Court Herald Service.
-        + Discuss routes for main microservice to talk to court herald service.
-      + Todo Next Week
-        + Test Auth Routes - not done last week due to not full database
-          schema implemented.
-        + Create assignment endpoint.
-        + Implement full schema models.
-        + GCS health checks.
-
-    + Alex Supkay
-      + Assigned Previous Week
-        + Obtain Cloud Credits
-        + Venture Center Talk Stuff
-        + Env variables
-        + K8's Deployment Backend
-      + Finished Previous Week
-        + Obtain Cloud Credits
-        + Venture Center Talk Stuff
-        + Env variables
-        + K8's Deployment Backend
-      + Todo Next Week
-        + Venture Center Talk Stuff continued. 
+        + winter break + finals
 * Components
   This section will be expanded as we work through several stages of
   MVPs.
@@ -701,28 +478,35 @@
 ***** There's a lot of work to this even though it sounds simple.
 **** The ability to spin up jobs per user.
      
-* Project Timeline
+* Completion Schedule
   Here is our timeline of what we expect to have done.
+  Note this schedule is landscape.
   
   #+LATEX: \newpage
   #+LATEX: \begin{landscape}
   #+ATTR_LATEX: :environment longtable :align |p{4cm}|p{4cm}|p{4cm}|p{4cm}|p{4cm}|
-  | Date       | Front End                                      | Back End                                               | Kubernetes                           | Other/Notes |
-  |------------+------------------------------------------------+--------------------------------------------------------+--------------------------------------+-------------|
-  | 10/11/2018 | Mockup Designs                                 | Logging boilerplate                                    | -                                    | -           |
-  | 10/18/2018 | React skeleton code                            | Microservice Health Monitor                            | -                                    | -           |
-  | 10/25/2018 | Create student and professor and user accounts | DB schema design for login                             | Create Deployments for microservices | -           |
-  |            |                                                | Store student and professor accounts                   |                                      |             |
-  | 11/01/2018 | Login, logout frontend with jwt encryption     | Login authentication API with jwt                      | Dockerize deployments                | -           |
-  |            |                                                |                                                        | Service networking                   |             |
-  | 11/08/2018 | Professor view: Layout                         | DB schema design for courses, assignments, submissions | -                                    | -           |
-  | 11/15/2018 | Professor view: Assignments component          | File upload API                                        | -                                    | -           |
-  |            | Professor view:  Assignment creation           |                                                        |                                      |             |
-  | 11/22/2018 | Professor view: (cont)                         | File type verification                                 | -                                    | -           |
-  | 11/29/2018 | Student view: Layout                           | Integrate with Kubernetes API for creating jobs        | -                                    | -           |
-  | 12/06/2018 | Student view: Assignment view                  | Integrate with Kubernetes API (cont)                   | -                                    | -           |
-  |            | Student view: Assignment upload view           | Integrate with Kubernetes API (cont)                   | -                                    | -           |
-  | 12/13/2018 | Student view (cont)                            | API for relaying Kubernetes output to front end        | -                                    | -           |
+  | Date       | Front End                                    | Back End                                                 | Kubernetes                             | Other/Notes |
+  |------------+----------------------------------------------+----------------------------------------------------------+----------------------------------------+-------------|
+  | 10/11/2018 | +Mockup Designs+                             | +Logging boilerplate+                                    | -                                      | -           |
+  | 10/18/2018 | +React skeleton code+                        | +Microservice Health Monitor+                            | -                                      | -           |
+  | 10/25/2018 | +Create account+                             | +DB schema design for login+                             | +Create Deployments for microservices+ | -           |
+  |            |                                              | +Store student and professor accounts+                   | +Certs+                                |             |
+  | 11/01/2018 | +Login, logout frontend with jwt encryption+ | +Login authentication API with jwt+                      | +Dockerize deployments+                | -           |
+  | 11/15/2018 | +Dashboard view+                             |                                                          | +Service networking+                   |             |
+  |            |                                              | +DB schema design for courses, assignments, submissions+ | +Ingress Controller+                   | -           |
+  | 11/22/2018 | +Assignments view component+                 | +File upload API+                                        | -                                      | -           |
+  |            | +Professor view:  Assignment creation+       |                                                          | _                                      |             |
+  | 11/29/2018 | Deomable UI For submitting Grading           | +File type verification, submit assignment route+        | -                                      | -           |
+  | 12/06/2018 | +Student view: Layout+                       | +Integrate with Kubernetes API for creating jobs+        | -                                      | -           |
+  | 12/06/2018 | +Student view: Course view+                  | Integrate with Kubernetes API (cont)                     | -                                      | -           |
+  |            | +Student view: Assignment view+              | Integrate with Kubernetes API (cont)                     | -                                      | -           |
+  | 12/13/2018 | Student view: Assignmnet Submission          | API for relaying Kubernetes output to front end          | -                                      | -           |
+  | 1/24/2019  | Professor view: Student Submissions          | User permissions create course                           | _                                      | _           |
+  | 1/31/2019  | Provessor view: Student SUbmission           | User permissions view health checks                      |                                        |             |
+  | 2/07/2019  | Course Creation Page                         | Course Creation endpoints                                |                                        |             |
+  | 2/14/2019  | Professor Course View                        | Add Students to Course endpoints                         |                                        |             |
+  | 2/21/2019  | Student Course View                          | _                                                        |                                        |             |
+  |            |                                              |                                                          |                                        |             |
   #+LATEX: \end{landscape}
 
   + First MVP (Fall Semester): To have a small demo web app that only
@@ -747,9 +531,8 @@
   #+ATTR_LATEX: :width 15cm :placement [ht!]
   #+CAPTION: Dependecy Diagram
   #+NAME: fig:Dependency-Diagram
-  [[./dep_diagram/graph.png]] \FloatBarrier
+  [[./dep_diagram/graph.png]] 
+  \FloatBarrier
   #+LATEX: \end{landscape}
 * Venture Center
-  This week we have reached out to the venture center and are waiting
-  further word from them. This is to discuss the oppurtunity of this
-  software being a startup.
+  We are meeting with venture center this Monday November 5th at 12pm.

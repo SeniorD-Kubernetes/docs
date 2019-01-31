@@ -1,0 +1,50 @@
+#+TITLE: Weekly Report 8
+#+AUTHOR: Brian Borowski
+
+* Tyr: Report
+** Previous Week(7):
+*** Front End
+**** Start designing parts of MVP.
+***** Login Page finished
+***** React Router Set up
+***** Redux set Up
+***** Upload Page wip
+*** Back End
+**** Full Mongo schema models implemented
+**** Bug Fixes
+**** Authentication
+***** Tests could not be done last week due to mongo models not decided upon.
+***** JWT token handler.
+***** Forgot Password route.
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Ingress Controller
+**** Set up certs.
+**** Job set up.
+
+** Current Week(8):
+*** Front End
+**** Start designing parts of MVP.
+***** Upload Page wip
+***** Test Results Page wip
+*** Back End
+**** API Documentation
+**** Authentication
+***** Tests
+***** Jwt Authorization
+***** Forgot Password route.
+***** Error Handler Clean Up
+***** Language Verification Discussion(Do we need it?)
+*** Op Sec
+**** Talk to venture center.
+**** Google Cloud Storage this week
+*** Kubernetes
+**** Talk with Backend about spinning up jobs through k8s api.
+
+* Overall Status: Behind schedule
+  Progress was made significantly in the back end, but I was hoping to
+  see something in the front end this time. They showed me a working
+  auth but it was through curl requests rather than a
+  UI. Unfortunately I was asking for a front end showing, and they
+  hopefully can show me a lot of progress next week in that regard.
