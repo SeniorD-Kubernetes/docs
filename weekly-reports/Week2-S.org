@@ -1,0 +1,37 @@
+#+TITLE: Weekly Report 2(Spring)
+#+AUTHOR: Brian Borowski
+#+OPTIONS: toc:nil 
+
+* Tyr: Report
+** Previous Week(1):
+*** Front End
+**** Clean Up + Design
+*** Back End
+**** Data fetching Routes
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Auto Grading More set up. 
+
+** Current Week(2):
+*** Front End
+**** Clean Up + Design
+*** Back End
+**** Course Creation endpoint
+**** Add student enpoints
+**** Mongo Data Fixes
+**** Redesign Create Assignment Endpoint
+*** Op Sec
+**** Talk to venture center.
+**** Seed Data Updates
+*** Kubernetes
+**** Auto Grading More set up.
+
+* Overall Status: On Schedule
+  This week the team pitched a design change. Instead of supplying
+  test scripts they want users when creating a assignment to give
+  expected inputs and command to run. This saves the professor from
+  writing a test script themself as well as an easier time to
+  implement. Overall team is now focusing on the problem for last
+  semester with downloading files and continuing to build
+  application. Everything seems on track.

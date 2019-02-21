@@ -1,0 +1,21 @@
+#+TITLE: Weekly Report 1(Spring)
+#+AUTHOR: Brian Borowski
+#+OPTIONS: toc:nil 
+
+* Tyr: Report
+** Winter Break Previously
+
+
+** Current Week(1):
+*** Front End
+**** Clean Up + Design
+*** Back End
+**** Data fetching Routes
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Auto Grading More set up. 
+
+* Overall Status: On Schedule
+  Team is getting back into the groove of things and we set up the
+  weekly meetings. Team has started some work again as well. 

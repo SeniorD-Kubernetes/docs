@@ -1,0 +1,36 @@
+#+TITLE: Weekly Report 3(Spring)
+#+AUTHOR: Brian Borowski
+#+OPTIONS: toc:nil 
+
+* Tyr: Report
+
+** Previous Week(2):
+*** Front End
+**** Clean Up + Design
+*** Back End
+**** Course Creation endpoint
+**** Add student enpoints
+**** Mongo Data Fixes
+**** Redesign Create Assignment Endpoint
+*** Op Sec
+**** Talk to venture center.
+**** Seed Data Updates
+*** Kubernetes
+**** Auto Grading More set up.
+
+** Current Week(3):
+*** Front End
+**** Clean Up + Design
+***  Back End
+**** Documentation
+**** Clean up
+**** Status Codes
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Auto Grading More set up. 
+
+* Overall Status: On Schedule
+  Team could not meet this week due to inclement weather. However,
+  they have updated me that they have finished what they set out to do
+  last week. This is good news and all seems well.

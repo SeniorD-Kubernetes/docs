@@ -1,0 +1,38 @@
+#+TITLE: Weekly Report 4(Spring)
+#+AUTHOR: Brian Borowski
+#+OPTIONS: toc:nil 
+
+* Tyr: Report
+
+** Previous Week(3):
+*** Front End
+**** Clean Up + Design
+***  Back End
+**** Documentation
+**** Clean up
+**** Status Codes
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Auto Grading More set up. 
+
+
+** Current Week(4):
+*** Front End
+**** Clean Up + Design
+***  Back End
+**** Documentation
+**** Clean up GridFS
+**** More routes
+*** Op Sec
+**** Talk to venture center.
+*** Kubernetes
+**** Auto Grading More set up. 
+
+* Overall Status: On Schedule
+  Team again could not meet this week as it was a Monday schedule this
+  Tuesday, however, I did get to meet with a team member and catch
+  up. They have fixed some bugs, cleaned up code, and showcased a new
+  ui. New routes and route fixes are still in progress but they are
+  almost done. I look forward to seeing future progress and a demo
+  soon.
